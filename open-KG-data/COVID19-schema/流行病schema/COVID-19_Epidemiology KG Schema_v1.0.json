@@ -1,0 +1,1025 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "epid": "http://www.openkg.cn/COVID-19/epidemiology/property/"
+  },
+  
+  "@graph" : [ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "被调查个体"
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2",
+    "@type" : "rdfs:Class",
+     "rdfs:label": "事件"
+  },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C21",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "现象事件",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C22",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "简单事件",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+    }
+  },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C23",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "行程事件",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C24",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "聚集事件",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C3",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "宿主"
+  }, 
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C31",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "人类宿主",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C32",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "动物宿主",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+    }
+  }, 
+ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C33",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "植物宿主",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C4",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "活动记录"
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C5",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "流行特征"
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C51",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "人群分布",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C5"
+    }
+  }, 
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C52",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "地域分布",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C5"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C53",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "时间分布",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C5"
+    }
+  }, 
+    
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C6",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "疾病"
+  }, 
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C61",
+    "@type" : "rdfs:Class",
+     "rdfs:label": "流行病",
+    "rdfs:subClassOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C6"
+    }
+   }, 
+    {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C7",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "流行病学调查"
+    },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C8",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "疫源地"
+    },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C81",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "疫区",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C8"
+    }
+  }, 
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C82",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "疫点",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C8"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "疫情"
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C10",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "病原体"
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C101",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "微生物",
+     "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C10"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C102",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "寄生虫",
+     "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C10"
+    }
+  }, 
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1011",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "真菌",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1012",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "立克次体",
+  "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  }, 
+ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1013",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "细菌",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  }, 
+ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1014",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "螺旋体",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  },  
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1015",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "支原体",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1016",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "衣原体",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1017",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "病毒",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C101"
+    }
+  }, 
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C111",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "被调查个体状态类型"
+  }, 
+  {
+    "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1111",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "确诊",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C111"
+    }
+  }, 
+  {
+    "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1111",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "疑似",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C111"
+    }
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C112",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "传播途径"
+  }, 
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1121",
+      "rdfs:label": "医源性传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1122",
+      "rdfs:label": "土壤传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1123",
+      "rdfs:label": "垂直传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1124",
+      "rdfs:label": "气溶胶传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1125",
+      "rdfs:label": "水传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1126",
+      "rdfs:label": "粪口传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1127",
+      "rdfs:label": "节肢动物传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1128",
+      "rdfs:label": "飞沫传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1129",
+      "rdfs:label": "食物传播",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C112"
+    }
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C113",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "流行强度分类"
+  }, 
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1131",
+      "rdfs:label": "散发",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C113"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1132",
+      "rdfs:label": "爆发",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C113"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1133",
+      "rdfs:label": "流行",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C113"
+    }
+  },
+   {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1134",
+      "rdfs:label": "大流行",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C113"
+    }
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C114",
+    "@type" : "rdfs:Class", 
+    "rdfs:label": "感染模式"
+  }, 
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1141",
+      "rdfs:label": "隐性感染",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C114"
+    }
+  },
+  {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C1142",
+      "rdfs:label": "显性感染",
+    "rdfs:subClassOf": {
+      "@id": "http://www.openkg.cn/COVID-19/epidemiology/class/C114"
+    }
+  },
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C12",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "调查人群"
+  },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "调查报告"
+  },
+   {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C14",
+    "@type" : "rdfs:Class",
+    "rdfs:label": "调查方法"
+  },
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P1",
+  "@type" : "rdf:Property",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+  "rdfs:label" : "基本情况"
+ },
+ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P11",
+    "@type" : "rdf:Property",
+    "rdfs:comment": "病例地域编号.",
+    "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+    "rdfs:label" : "ID",
+    "rdfs:range" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+     } ,
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+  },  
+  
+  {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P2",
+    "@type" : "rdf:Property",
+    "rdfs:domain" : [ {
+             "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C61"
+            }, {
+            "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C10"
+            } ],
+    "rdfs:label" : "cause",
+    "rdfs:range" : [ {
+             "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9"
+            }, {
+            "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C61"
+            } ]
+  },
+    
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P3",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "connect-to",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+  "rdfs:range" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      }
+}, 
+  
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P4",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "has_attr",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C4"
+      }
+},
+
+ {
+    "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P5",
+    "@type" : "rdf:Property",
+    "rdfs:comment": "被调查个体状态",
+    "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+    "rdfs:label" : "被调查个体状态",
+    "rdfs:range" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+     } 
+  },  
+
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P6",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "has_basic_disease",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C6"
+      }
+},
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P7",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "has_epidemic_strength",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C113"
+      }
+},
+ 
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P8",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "has_infection_mode",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C114"
+      }
+},
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P9",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "infect",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P3"
+      }
+},
+ 
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P10",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "is-composed-of",
+  "rdfs:domain" : [ {
+          "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C12"
+            }, {
+          "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C4"
+          } ],
+   "rdfs:range" :  [{
+          "@id" : "ttp://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },{
+          "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+      }]
+},
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P12",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "is-for",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C7"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9"
+      }
+},
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P13",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "is-next-of",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+      }
+},
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P14",
+  "@type" : "rdf:Property",
+   "rdfs:label" : "is-part-of",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9"
+      }
+},
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P15",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "lives-on",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C10"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+      }
+},
+  
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P16",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "produces",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C7"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      }
+},
+
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P17",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "reflects",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C9"
+      }
+},
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P18",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "samples",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C7"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C12"
+      }
+},
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P19",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "social-connect-to",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      }
+},
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P20",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "transmits-to",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C3"
+      }
+},
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P21",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "uses",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C7"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C14"
+      }
+ },
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P22",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "临床表现",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P23",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "事件细节",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+ },
+ 
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P24",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "人群易感性",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C14"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P25",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "住院日期",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P26",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "免疫力",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P24"
+      }
+ },
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P27",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "出院日期",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P28",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "发病指标",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P29",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "发病时间",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P30",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "发病率",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P28"
+      }
+ },
+
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P31",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "地域范围",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+ },
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P32",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "地点",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+ },
+
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P33",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "就医时间",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P34",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "常驻地",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+      
+ },
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P35",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "年龄",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+      
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P36",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "归属地",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+      
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P37",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "性别",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+ },
+{
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P38",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "就医时间",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P39",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "易感性",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P24"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P40",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "死亡指标",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+      }
+ },
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P41",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "死亡时间",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+  
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P42",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "死亡率",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P40"
+      }
+ },
+  
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P43",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "民族",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+ },
+ 
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P44",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "潜伏期",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      }
+ },
+ 
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P45",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "疫区接触史",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+ },
+ 
+  {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P46",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "疫源接触史",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+ },
+ 
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P47",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "病死率",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P40"
+      }
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P48",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "确诊时间",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P49",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "终止时间",
+  "rdfs:domain" : [ {
+           "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+          }, {
+           "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+            } ],
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P50",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "续发率",
+  "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P28"
+      }
+ },
+ {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P51",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "职业",
+  "rdfs:domain" : {
+      "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C1"
+      },
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+      },
+    "rdfs:subPropertyOf": {
+        "@id": "http://www.openkg.cn/COVID-19/epidemiology/property/P1"
+      }
+ },
+
+   {
+  "@id" : "http://www.openkg.cn/COVID-19/epidemiology/property/P52",
+  "@type" : "rdf:Property",
+  "rdfs:label" : "起始时间",
+  "rdfs:domain" : [ {
+           "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C2"
+          }, {
+           "@id" : "http://www.openkg.cn/COVID-19/epidemiology/class/C13"
+            } ],
+   "rdfs:range" :  {
+      "@id" : "http://www.w3.org/2001/XMLSchema#date"
+      }
+ }
+ ]
+
+}

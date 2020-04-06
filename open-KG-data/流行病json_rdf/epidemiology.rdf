@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns0="http://www.openkg.cn/COVID-19/epidemiology/property/">
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">被调查个体</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C2">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">事件</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C21">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">现象事件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C22">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">简单事件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C23">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">行程事件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C24">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">聚集事件</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C3">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">宿主</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C31">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人类宿主</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C32">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">动物宿主</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C33">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物宿主</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">活动记录</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流行特征</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C51">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人群分布</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C5"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C52">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">地域分布</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C5"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C53">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">时间分布</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C5"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疾病</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C61">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流行病</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C6"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流行病学调查</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C8">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫源地</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C81">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫区</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C8"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C82">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫点</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C8"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C9">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫情</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C10">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">病原体</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C101">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">微生物</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C10"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C102">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">寄生虫</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C10"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1011">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">真菌</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1012">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">立克次体</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1013">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">细菌</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1014">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">螺旋体</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1015">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">支原体</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1016">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">衣原体</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1017">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">病毒</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C101"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">被调查个体状态类型</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1111">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">确诊</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疑似</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C111"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C112">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">传播途径</rdfs:label>
+  </rdfs:Class>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1121">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">医源性传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1122">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">土壤传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1123">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">垂直传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1124">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">气溶胶传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1125">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">水传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1126">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">粪口传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1127">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">节肢动物传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1128">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">飞沫传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1129">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">食物传播</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C112"/>
+  </rdf:Description>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C113">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流行强度分类</rdfs:label>
+  </rdfs:Class>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1131">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">散发</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C113"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1132">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爆发</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C113"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1133">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">流行</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C113"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1134">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大流行</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C113"/>
+  </rdf:Description>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C114">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">感染模式</rdfs:label>
+  </rdfs:Class>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1141">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">隐性感染</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C114"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C1142">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">显性感染</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C114"/>
+  </rdf:Description>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C12">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">调查人群</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C13">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">调查报告</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://www.openkg.cn/COVID-19/epidemiology/class/C14">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">调查方法</rdfs:label>
+  </rdfs:Class>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P1">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">基本情况</rdfs:label>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P11">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">病例地域编号.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P2">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C61"/>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C10"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cause</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C9"/>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C61"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P3">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connect-to</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P4">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_attr</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C4"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P5">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">被调查个体状态</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">被调查个体状态</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P6">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_basic_disease</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C6"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P7">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_epidemic_strength</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C113"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P8">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_infection_mode</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C114"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P9">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infect</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P3"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P10">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C12"/>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-composed-of</rdfs:label>
+    <rdfs:range rdf:resource="ttp://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P12">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-for</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C9"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P13">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-next-of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P14">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C9"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-part-of</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C9"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P15">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C10"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lives-on</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P16">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">produces</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P17">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflects</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C9"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P18">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samples</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C12"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P19">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social-connect-to</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P20">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmits-to</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C3"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P21">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uses</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C14"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P22">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">临床表现</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P23">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">事件细节</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P24">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人群易感性</rdfs:label>
+    <rdfs:range rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C14"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P25">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">住院日期</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P26">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">免疫力</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P24"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P27">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">出院日期</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P28">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">发病指标</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P29">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">发病时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P30">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">发病率</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P28"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P31">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">地域范围</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P32">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">地点</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P33">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">就医时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P34">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">常驻地</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P35">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">年龄</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P36">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">归属地</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P37">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">性别</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P38">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">就医时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P39">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">易感性</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P24"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P40">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">死亡指标</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P41">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">死亡时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P42">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">死亡率</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P40"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P43">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">民族</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P44">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">潜伏期</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P45">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫区接触史</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P46">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疫源接触史</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P47">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">病死率</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P40"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P48">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">确诊时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P49">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">终止时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P50">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">续发率</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P28"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P51">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">职业</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/property/P1"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P52">
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C2"/>
+    <rdfs:domain rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C13"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">起始时间</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="http://www.openkg.cn/COVID-19/epidemiology/property/P90">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">夫妻关系</rdfs:label>
+  </rdf:Property>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/resource/R1">
+    <rdf:type rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <ns0:P39 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-22</ns0:P39>
+    <ns0:P48 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-31</ns0:P48>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第1个病例</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/resource/R2">
+    <rdf:type rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <ns0:P39 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-24</ns0:P39>
+    <ns0:P48 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-02-01</ns0:P48>
+    <ns0:P90 rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/resource/R1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第2个病例</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/resource/R3">
+    <rdf:type rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <ns0:P39 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-24</ns0:P39>
+    <ns0:P48 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-02-01</ns0:P48>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第3个病例</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/resource/R4">
+    <rdf:type rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <ns0:P39 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-21</ns0:P39>
+    <ns0:P48 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-02-02</ns0:P48>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第4个病例</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.openkg.cn/COVID-19/epidemiology/resource/R5">
+    <rdf:type rdf:resource="http://www.openkg.cn/COVID-19/epidemiology/class/C1"/>
+    <ns0:P39 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-01-24</ns0:P39>
+    <ns0:P48 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-02-02</ns0:P48>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">第5个病例</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>

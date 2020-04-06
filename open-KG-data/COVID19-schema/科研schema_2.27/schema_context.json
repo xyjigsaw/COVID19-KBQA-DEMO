@@ -1,0 +1,1260 @@
+{
+    "@context": {
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "type": {
+            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "@type": "@id"
+        },
+        "range": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#range",
+            "@type": "@id"
+        },
+        "domain": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "@type": "@id"
+        },
+        "sameAs": {
+            "@id": "http://cnschema.org/sameAs"
+        },
+        "alias": {
+            "@id": "http://cnschema.org/alternateName"
+        },
+        "url": {
+            "@id": "http://cnschema.org/url"
+        },
+        "identifier": {
+            "@id": "http://cnschema.org/identifier"
+        },
+        "species": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P1",
+            "@type": "@id"
+        },
+        "genus": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P2",
+            "@type": "@id"
+        },
+        "subGenus": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P3",
+            "@type": "@id"
+        },
+        "family": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P4",
+            "@type": "@id"
+        },
+        "subFamily": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P5",
+            "@type": "@id"
+        },
+        "order": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P6",
+            "@type": "@id"
+        },
+        "subOrder": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P7",
+            "@type": "@id"
+        },
+        "subSpecies": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P8",
+            "@type": "@id"
+        },
+        "class": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P9",
+            "@type": "@id"
+        },
+        "phylum": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P10",
+            "@type": "@id"
+        },
+        "subPhylum": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P11",
+            "@type": "@id"
+        },
+        "host_is": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P12",
+            "@type": "@id"
+        },
+        "parent": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P13",
+            "@type": "@id"
+        },
+        "from_country": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P14",
+            "@type": "@id"
+        },
+        "from_division": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P15",
+            "@type": "@id"
+        },
+        "from_location": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P16",
+            "@type": "@id"
+        },
+        "from_mutate_branch": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P17",
+            "@type": "@id"
+        },
+        "produce": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P18",
+            "@type": "@id"
+        },
+        "effect": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P19",
+            "@type": "@id"
+        },
+        "interaction": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P20",
+            "@type": "@id"
+        },
+        "binding": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P21",
+            "@type": "@id"
+        },
+        "belong_to": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P22",
+            "@type": "@id"
+        },
+        "express": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P23",
+            "@type": "@id"
+        },
+        "translate": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P24",
+            "@type": "@id"
+        },
+        "therapeutic_method": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P25"
+        },
+        "authors": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P26"
+        },
+        "originating_lab": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P27"
+        },
+        "submitting_lab": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P28"
+        },
+        "gisaid_epi_isl": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P29"
+        },
+        "collection_date": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P30"
+        },
+        "nucleotide_mutation": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P31"
+        },
+        "aa_mutation": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P32"
+        },
+        "divergence": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P33"
+        },
+        "virus_type": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P34"
+        },
+        "drugbank_virus_id": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P35"
+        },
+        "drugbank_drug_id": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P36"
+        },
+        "atc_codes": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P37"
+        },
+        "brand_names": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P38"
+        },
+        "smiles_string_isomeric": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P39"
+        },
+        "chemical_formula": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P40"
+        },
+        "drug_type": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P41"
+        },
+        "experimental_water_solubility": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P42"
+        },
+        "molecular_weight_avg": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P43"
+        },
+        "indication": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P44"
+        },
+        "half_life": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P45"
+        },
+        "pathways": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P46"
+        },
+        "description": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P47"
+        },
+        "pharmacology": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P48"
+        },
+        "mechanism_of_action": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P49"
+        },
+        "toxicity": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P50"
+        },
+        "drug_category": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P51"
+        },
+        "uniprotkb_entry_name": {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P52"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Virus"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "病毒"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C2",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Lineage"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "病毒的分类体系"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C3",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Genus"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "属分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C4",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SubGenus"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚属分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C5",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Family"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "科分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C6",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SubFamily"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚科分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C7",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Order"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "目分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C8",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SubOrder"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚目分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C9",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Species"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "种分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C10",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SubSpecies"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚种分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C11",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Class"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "纲分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C12",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SubPhylum"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚门分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C13",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Phylum"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "门分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C14",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "SuperKindom"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "超界"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C15",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "UnknowLineage"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "未知的分类"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Strain"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "毒株"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C17",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Branch"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "分支"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C18",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Host"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "宿主"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C19",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "VirusProtein"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "病毒蛋白"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C20",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "HostProtein"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "宿主蛋白"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Drug"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "药物"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/class/C22",
+            "type": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "Gene"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "基因"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P1",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "species"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "种"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C9"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P2",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "genus"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "属"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C3"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P3",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "subGenus"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚属"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C4"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P4",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "family"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "科"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C5"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P5",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "subFamily"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚科"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C6"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P6",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "order"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "目"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C7"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P7",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "subOrder"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚目"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C8"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P8",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "subSpecies"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚种"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C10"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P9",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "class"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "纲"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C11"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P10",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "phylum"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "门"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C13"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P11",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "subPhylum"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "亚门"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C12"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P12",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "host_is"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "宿主是"
+                }
+            ],
+            "domain": [
+                "http://www.openkg.cn/COVID-19/research/class/C1",
+                "http://www.openkg.cn/COVID-19/research/class/C16"
+            ],
+            "range": "http://www.openkg.cn/COVID-19/research/class/C18"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P13",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "parent"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "父节点"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C2"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P14",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "from_country"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "来自于…国家"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Country"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P15",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "from_division"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "来自于…行政区"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/State"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P16",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "from_location"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "来自于…地理位置"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/City"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P17",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "from_mutate_branch"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "在…变异分支上"
+                }
+            ],
+            "domain": [
+                "http://www.openkg.cn/COVID-19/research/class/C16",
+                "http://www.openkg.cn/COVID-19/research/class/C17"
+            ],
+            "range": "http://www.openkg.cn/COVID-19/research/class/C17"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P18",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "produce"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "产生"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C19"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P19",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "effect"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "影响"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C1"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P20",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "interaction"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "相互作用"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C20",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C19"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P21",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "binding"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "粘合"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C19",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C20"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P22",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "belong_to"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "属于"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C20",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C18"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P23",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "express"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "表达"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C22"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P24",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "translate"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "翻译"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C22",
+            "range": "http://www.openkg.cn/COVID-19/research/class/C19"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P25",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "therapeutic_method"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "治疗方法"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P26",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "authors"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "作者们"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P27",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "originating_lab"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "源实验室"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P28",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "submitting_lab"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "提交实验室"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P29",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "gisaid_epi_isl"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "GISAID登录号"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Integer"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P30",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "collection_date"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "采样时间"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Date"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P31",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "nucleotide_mutation"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "核苷酸突变"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P32",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "aa_mutation"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "AA突变"
+                }
+            ],
+            "domain": [
+                "http://www.openkg.cn/COVID-19/research/class/C16",
+                "http://www.openkg.cn/COVID-19/research/class/C17"
+            ],
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P33",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "divergence"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "变异度"
+                }
+            ],
+            "domain": [
+                "http://www.openkg.cn/COVID-19/research/class/C16",
+                "http://www.openkg.cn/COVID-19/research/class/C17"
+            ],
+            "range": "http://cnschema.org/Float"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P34",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": [
+                {
+                    "@language": "en",
+                    "@value": "virus_type"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "病毒类型"
+                }
+            ],
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C16",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P35",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "drugbank_virus_id"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C1",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P36",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "drugbank_drug_id"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P37",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "atc_codes"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P38",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "brand_names"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P39",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "smiles_string_isomeric"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P40",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "chemical_formula"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P41",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "drug_type"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P42",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "experimental_water_solubility"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P43",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "molecular_weight_avg"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Float"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P44",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "indication"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P45",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "half_life"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P46",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "pathways"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P47",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "description"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P48",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "pharmacology"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P49",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "mechanism_of_action"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P50",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "toxicity"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P51",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "drug_category"
+            },
+            "domain": "http://www.openkg.cn/COVID-19/research/class/C21",
+            "range": "http://cnschema.org/Text"
+        },
+        {
+            "@id": "http://www.openkg.cn/COVID-19/research/property/P52",
+            "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "label": {
+                "@language": "en",
+                "@value": "uniprotkb_entry_name"
+            },
+            "domain": [
+                "http://www.openkg.cn/COVID-19/research/class/C20",
+                "http://www.openkg.cn/COVID-19/research/class/C19"
+            ],
+            "range": "http://cnschema.org/Text"
+        }
+    ]
+}

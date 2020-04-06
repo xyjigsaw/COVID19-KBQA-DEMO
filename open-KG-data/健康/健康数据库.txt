@@ -1,0 +1,4 @@
+{"msg":"ok","connectionnum":4,"StatusMsg":"success","creator":"root","triple num":51578,"subject num":6655,"entity
+num":8055,"literalnum":24208,"StatusCode":0,"built_time":"2020-03-23 15:23:03","predicatenum":96,"predicate
+num":96,"database":"health","subjectnum":6655,"success":1,"cost_time":1,"literal num":24208,"connection
+num":4,"triplenum":51578,"entitynum":8055}

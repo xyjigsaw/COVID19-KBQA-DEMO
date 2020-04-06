@@ -1,0 +1,4436 @@
+{
+  "@graph" : [ {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "病毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C10",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "公告"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "新闻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C12",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "期刊"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C13",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "人物"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C14",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研究领域"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C15",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "机构"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "病例"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C17",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "城市"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "流行病学史"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "症状"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "疾病"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "中医证型"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "临床分型"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C22",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "治疗方案"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "指标项"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "医疗设备"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C25",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "医疗科目"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "检查项目"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C27",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "检测方式"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "药品"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "中药材"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C3",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "人群"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "经络"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "功效"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "功效类别"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C33",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "器官"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C36",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "媒体"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C15"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C37",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "机关"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C15"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C38",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "学校"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C15"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "常规"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C22"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C4",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "传播途径"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "方剂"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C22"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "使用方法"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "不良反应"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C43",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "种"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C468",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "中成药"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C28"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C469",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化学药"
+    },
+    "subClassOf" : "http://www.openkg.cn/COVID-19/medical/class/C28"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "防护方式"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C6",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "物品"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C7",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C8",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研究进展"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/class/C9",
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "论文"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "unit" : "人",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "基本传染指数"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#float"
+  }, {
+    "@id" : "P1:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "主要传播途径"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C4"
+  }, {
+    "@id" : "P10:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "禁忌"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P10:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "推荐中成药"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C468"
+  }, {
+    "@id" : "P10:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "适用症"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "P1:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "易感染人群"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C3"
+  }, {
+    "@id" : "P1:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "传染源"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C3"
+  }, {
+    "@id" : "P1:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属于"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C7"
+  }, {
+    "@id" : "P1:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "引发"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C2"
+  }, {
+    "@id" : "P1:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研究进展"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C8"
+  }, {
+    "@id" : "P1:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "并发症"
+    },
+    "range" : [ "http://www.openkg.cn/COVID-19/medical/class/C19", "http://www.openkg.cn/COVID-19/medical/class/C2" ]
+  }, {
+    "@id" : "P1:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "首次爆发疫区"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C17"
+  }, {
+    "@id" : "P1:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "病例"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C16"
+  }, {
+    "@id" : "P1:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研究进展"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C8"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "潜伏期"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P2:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "防护手段"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C5"
+  }, {
+    "@id" : "P2:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "症状"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "P2:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "指标"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C23"
+  }, {
+    "@id" : "P2:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伴随症状"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "P2:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "防护工具"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C6"
+  }, {
+    "@id" : "P2:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "适用人群"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C3"
+  }, {
+    "@id" : "P2:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "诊断标准"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C18"
+  }, {
+    "@id" : "P2:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "判断依据"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "结构"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P3:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "临床分型"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C21"
+  }, {
+    "@id" : "P3:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "证型"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C20"
+  }, {
+    "@id" : "P3:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C8",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发布"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C9"
+  }, {
+    "@id" : "P3:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C8",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "相关"
+    },
+    "range" : [ "http://www.openkg.cn/COVID-19/medical/class/C11", "http://www.openkg.cn/COVID-19/medical/class/C10" ]
+  }, {
+    "@id" : "P3:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C9",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "所属期刊"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C12"
+  }, {
+    "@id" : "P3:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C9",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "摘要"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P3:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C9",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "类型"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P3:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C9",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "文献"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P3:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "表现"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P40",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "推荐处方"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C22"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P41",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "临床表现"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P42",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "治疗方案"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C22"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P43",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C10",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发布时间"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#date"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P44",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C10",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "简介"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P45",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C10",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "内容"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#text"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P46",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发布时间"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#date"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P47",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "简介"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P48",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "内容"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#text"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P49",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "治疗设备"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C24"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生理机能"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P5:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "治疗药物"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C28"
+  }, {
+    "@id" : "P5:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C12",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属于"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C15"
+  }, {
+    "@id" : "P5:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "测量设备"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C24"
+  }, {
+    "@id" : "P5:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "检查项"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C26"
+  }, {
+    "@id" : "P5:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C13",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属于"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C3"
+  }, {
+    "@id" : "P5:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C13",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研究领域"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C14"
+  }, {
+    "@id" : "P5:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C13",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "任职"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C15"
+  }, {
+    "@id" : "P5:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C13",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发表"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C9"
+  }, {
+    "@id" : "P5:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "检查方式"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C27"
+  }, {
+    "@id" : "P5:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C15",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发布"
+    },
+    "range" : [ "http://www.openkg.cn/COVID-19/medical/class/C11", "http://www.openkg.cn/COVID-19/medical/class/C10" ]
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胸部影像学"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P6:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "所属科目"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C25"
+  }, {
+    "@id" : "P6:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "所属科目"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C25"
+  }, {
+    "@id" : "P6:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "忌同食"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C28"
+  }, {
+    "@id" : "P6:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "所含成分"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C29"
+  }, {
+    "@id" : "P6:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "用量"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P6:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "组成"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C40"
+  }, {
+    "@id" : "P6:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "主治"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C20"
+  }, {
+    "@id" : "P6:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "忌同食"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C29"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "实验室检查"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P7:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "功效"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C31"
+  }, {
+    "@id" : "P7:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "归经"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C30"
+  }, {
+    "@id" : "P7:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C33",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属于"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C30"
+  }, {
+    "@id" : "P7:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "功效类别"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C32"
+  }, {
+    "@id" : "P7:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "感染"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C33"
+  }, {
+    "@id" : "P7:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "损伤部位"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C33"
+  }, {
+    "@id" : "P7:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "相关人物"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C13"
+  }, {
+    "@id" : "P7:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C11",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "相关地点"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C17"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "鉴别诊断"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "使用建议"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "用量"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "临床应用"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "使用建议"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "相互作用"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "注意事项"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P8:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "用法"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C41"
+  }, {
+    "@id" : "P8:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "副作用"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C42"
+  }, {
+    "@id" : "P8:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "用法"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C41"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/property/P9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "unit" : "%",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "死亡率"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#float"
+  }, {
+    "@id" : "P9:0",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "副作用"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C42"
+  }, {
+    "@id" : "P9:1",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C7",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "属于"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C43"
+  }, {
+    "@id" : "P9:2",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "基因特征"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P9:3",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "疑似传播途径"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C4"
+  }, {
+    "@id" : "P9:4",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "药理作用"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P9:5",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "性状"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P9:6",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "性味"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P9:7",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "中药基原"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "P9:8",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "适用症"
+    },
+    "range" : "http://www.openkg.cn/COVID-19/medical/class/C19"
+  }, {
+    "@id" : "P9:9",
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "domain" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "服法"
+    },
+    "range" : "http://www.plantdata.ai/ontology/datatype#string"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R100",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R336", "http://www.openkg.cn/COVID-19/medical/resource/R337" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R335", "http://www.openkg.cn/COVID-19/medical/resource/R334", "http://www.openkg.cn/COVID-19/medical/resource/R333" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R332", "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R180" ],
+    "P80" : "气虚、津伤血枯者孕妇服。",
+    "P81" : "煎服，3-10g。或入丸散。",
+    "P82" : "1.湿阻中焦，脘腹胀满。本品苦燥辛散，能燥湿，又下气除胀满，为消除胀满的要药。常与苍术、陈皮等同用，如平胃散（《和剂局方》）。  2.食积气滞，腹胀便秘。本品可下气宽中，消积导滞。常与大黄、枳实同用，如厚朴三物汤（《金匮要略》）。若热结便秘者，配大黄、芒硝、枳实，以达峻下热结，消积导滞之效，即大承气汤（《伤寒论》）。  3.痰饮喘咳。本品能燥湿消痰，下气平喘。若痰饮阻肺，肺气不降，咳喘胸闷者，可与苏子、陈皮、半夏等同用，如苏子降气汤（《和剂局方》）。若寒饮化热，胸闷气喘，喉间痰声漉漉，烦躁不安者，与麻黄、石膏、杏仁等同用，如厚朴麻黄汤（《金匮要略》）。若宿有喘病，因外感风寒而发者，可与桂枝、杏仁等同用，如桂枝和厚朴杏子汤（《伤寒论》）。  此外，七情郁结，痰气互阻，咽中如有物阻，咽之不下，吐之不出的梅核气证，亦可取本品燥湿消痰，下气宽中之效，配伍半夏、茯苓、苏叶、生姜等药，如半夏厚朴汤（《金匮要略》）。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "厚朴"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R102",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : [ "http://www.openkg.cn/COVID-19/medical/resource/R119", "http://www.openkg.cn/COVID-19/medical/resource/R79" ],
+    "P68" : [ "http://www.openkg.cn/COVID-19/medical/resource/R61", "http://www.openkg.cn/COVID-19/medical/resource/R58" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R331", "http://www.openkg.cn/COVID-19/medical/resource/R330", "http://www.openkg.cn/COVID-19/medical/resource/R328", "http://www.openkg.cn/COVID-19/medical/resource/R329" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R180" ],
+    "P80" : "阴虚血少者禁服。",
+    "P81" : "煎服，3-6g。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "草果"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R103",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R100", "http://www.openkg.cn/COVID-19/medical/resource/R325", "http://www.openkg.cn/COVID-19/medical/resource/R326", "http://www.openkg.cn/COVID-19/medical/resource/R327" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R314", "http://www.openkg.cn/COVID-19/medical/resource/R315", "http://www.openkg.cn/COVID-19/medical/resource/R316", "http://www.openkg.cn/COVID-19/medical/resource/R317", "http://www.openkg.cn/COVID-19/medical/resource/R318" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R324", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "孕妇忌服。",
+    "P81" : "0.5～1两；外用适量鲜叶捣烂敷患处。",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R319", "http://www.openkg.cn/COVID-19/medical/resource/R321", "http://www.openkg.cn/COVID-19/medical/resource/R322", "http://www.openkg.cn/COVID-19/medical/resource/R244", "http://www.openkg.cn/COVID-19/medical/resource/R320", "http://www.openkg.cn/COVID-19/medical/resource/R323" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生麻黄"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R104",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R311", "http://www.openkg.cn/COVID-19/medical/resource/R302", "http://www.openkg.cn/COVID-19/medical/resource/R312" ],
+    "P73" : "http://www.openkg.cn/COVID-19/medical/resource/R182",
+    "P80" : "该品辛香温燥之性较烈，故阴亏血虚者慎用；阴虚头痛者慎用；血虚痹痛忌服。",
+    "P81" : "煎汤，3-10克。",
+    "P82" : "1、用于风寒感冒，头痛身疼。本品辛温，气雄而散，发表力强，主散太阳经风邪及寒湿之邪，有散寒祛风、胜湿止痛之功，故善治风寒湿邪袭表，恶寒发热、肌表无汗、头痛项强、肢体酸痛者医|学教育网整理，常与防风、细辛、苍术、川芎等药同用，如九味羌活汤；若寒湿偏重，头痛身重者，可配伍独活、稿本、川芎等药，如羌活胜湿汤。  2、用于风寒湿痹，肩臂疼痛。本品辛散祛风、味苦燥湿、性湿散寒，能去除风寒湿邪，通利关节而止痛，且作用部位偏上，故善治腰以上风寒湿痹，尤以肩背肢节疼痛者佳，多伍防风、姜黄、当归等药同用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R313",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "羌活"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R105",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R309", "http://www.openkg.cn/COVID-19/medical/resource/R310" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R303", "http://www.openkg.cn/COVID-19/medical/resource/R305", "http://www.openkg.cn/COVID-19/medical/resource/R302", "http://www.openkg.cn/COVID-19/medical/resource/R304" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "生姜助火伤阴，故热盛及阴虚内热者忌服。",
+    "P81" : "煎服，3~10g，或捣汁服。",
+    "P82" : "1、治风湿痛、腰腿痛  用鲜生姜制成5～10％注射液，行痛点或反应结节注射，亦可配合远端或近端穴位注射，如关节部位则在关节囊周围注射。每点注入0.5～2毫升，每日或隔日1次，3～5次为一疗程，一般可连续注射20～30次。注射后局部常有胀、麻及灼热感，甚至疼痛加剧，约1～2天便减轻或消失。据观察，反应愈重效果愈佳。用于风湿痛、慢性腰背痛113例，显效36例，好转56例，有效率83％；尤以对风湿痛疗效更佳，有效率达92.5％；治疗风湿性关节炎38例，治愈14例，显效15例，有效6例。有效病例用药后疼痛减轻或消失，关节肿胀消退或好转，功能恢复或改善。还曾试用于小儿麻痹症，亦有一定效果。此外，用生姜、麻油制成生姜曲注射剂行穴位注射，对风湿痛或腰腿痛也有疗效。  2、治胃、十二指肠溃疡  据数十例的观察，对改善症状有较好效果：服药后能使疼痛减轻或消失，随之反酸、饥饿感也见好转，便秘及黑粪转为正常，食欲增加。但多不能根治，常易复发；对一部分患者能遗留下较长的胃部堵塞感。用法：鲜生姜60克，洗净切碎，加水300毫升，煎30分钟。每日3次，2日服完。  3、治疗疟疾  鲜生姜洗净拭干，切碎捣烂，摊于纱布块上，再包叠成小方块，敷贴于穴位上，用胶布固定或绷带包扎。选用穴位计分3组：第1组为双侧膝眼，生姜用2两分敷两穴；第2组为大椎加间使（双侧），生姜用1两分敷3穴；第3组选大椎1穴，生姜用5钱。一般于发作前4～6小时敷贴，经8～12小时即可取下，敷药两次即可。观察40例，除第1、第3两组各有2例无效外，其余均控制发作，血检疟原虫阴性。  4、治疗急性细菌性痢疾  用鲜生姜1.5两，红糖1两，共捣为糊状，每日3次分服，7天为一疗程。据50例观察，治愈率为70％，好转率为30％。用药后腹痛、里急后重平均消失时间分别为5.16天和5.14天，大便外观及次数恢复正常分别为4.8天和5.2天，大便镜检及培养平均转阴日数分别为4.58天和3.6天。治疗中未见明显副作用。",
+    "P87" : [ "http://www.openkg.cn/COVID-19/medical/resource/R306", "http://www.openkg.cn/COVID-19/medical/resource/R279" ],
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R308", "http://www.openkg.cn/COVID-19/medical/resource/R307" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生姜"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R106",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : [ "http://www.openkg.cn/COVID-19/medical/resource/R79", "http://www.openkg.cn/COVID-19/medical/resource/R119" ],
+    "P68" : [ "http://www.openkg.cn/COVID-19/medical/resource/R61", "http://www.openkg.cn/COVID-19/medical/resource/R58" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R333", "http://www.openkg.cn/COVID-19/medical/resource/R397", "http://www.openkg.cn/COVID-19/medical/resource/R399", "http://www.openkg.cn/COVID-19/medical/resource/R398", "http://www.openkg.cn/COVID-19/medical/resource/R270" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R332" ],
+    "P80" : "脾虚便溏，气虚下陷者忌用；孕妇慎用。",
+    "P81" : "煎服，3-10g。驱绦虫、姜片虫30-60g。生用力佳，炒用力缓；鲜者优于陈久者。",
+    "P82" : "煎服，3-10g。驱绦虫、姜片虫30-60g。生用力佳，炒用力缓；鲜者优于陈久者。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R400", "http://www.openkg.cn/COVID-19/medical/resource/R401" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "槟郎"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R107",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "苔黄腻或黄燥"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R108",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脉滑数"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R109",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "舌质红"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R111",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R309", "http://www.openkg.cn/COVID-19/medical/resource/R388", "http://www.openkg.cn/COVID-19/medical/resource/R389" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R372", "http://www.openkg.cn/COVID-19/medical/resource/R386", "http://www.openkg.cn/COVID-19/medical/resource/R385" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R332" ],
+    "P80" : "内服不宜过量，以免中毒。",
+    "P81" : "5～10g，生品入煎剂后下。",
+    "P82" : "1.用于咳嗽气喘。  杏仁苦泄降气而止咳，故可用于咳嗽、气喘等症，常与麻黄、甘草，或贝母、前胡等配伍应用。  2.用于肠燥便秘。  本品质润多油，故又有润肠通便之功，应用时可与大麻仁、瓜蒌仁等润肠药配伍。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : "http://www.openkg.cn/COVID-19/medical/resource/R387",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "杏仁"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R112",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R380", "http://www.openkg.cn/COVID-19/medical/resource/R379", "http://www.openkg.cn/COVID-19/medical/resource/R381" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "1 脾胃虚寒及血虚、阴虚发热者忌服石膏。 2 鸡子为之使。石膏恶莽草、马目毒公《本草经集注》 3 石膏属大寒之品，易伤阳气。 4 石膏恶巴豆，畏铁。《药性论》 5 石膏用量过大，服后会出现疲倦乏力、精神不振。胃口欠佳等情况。 6 石膏不宜与下列西药同时运用：四环素族抗生素，石膏会使该族抗生素溶解度降低而吸收率减少。不宜与异烟肼同服，会使其疗效降低。不宜与强的松同服，能降低其生物利用度。",
+    "P81" : "15～60g，先煎。",
+    "P82" : "1、用于温热病气分实热的证候。常与知母相须为用，如白虎汤。对于温热病气血两燔，高热发斑，则常与犀角、玄参等凉血解毒药配伍，以清热消斑，如化斑汤。 2、用于肺热喘咳，心烦口渴。常与杏仁、麻黄配用，以清宣肺热、止咳平喘，如麻杏石甘汤。 3、 用于胃火亢 盛，头痛，齿 痛，牙龈肿痛。常与知母、牛膝等配伍，以泻火而缓痛，如玉女煎。 4、用于湿疹，疮疡溃后不敛，水火烫伤。常与黄柏、青黛等配伍，外用以清热敛疮、生肌。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R382", "http://www.openkg.cn/COVID-19/medical/resource/R384", "http://www.openkg.cn/COVID-19/medical/resource/R383" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生石膏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R113",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R396", "http://www.openkg.cn/COVID-19/medical/resource/R395", "http://www.openkg.cn/COVID-19/medical/resource/R394" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R391", "http://www.openkg.cn/COVID-19/medical/resource/R386", "http://www.openkg.cn/COVID-19/medical/resource/R390" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R332" ],
+    "P80" : "不宜与川乌、制川乌、草乌、制草乌、附子同用。",
+    "P81" : "9～15g。",
+    "P82" : "1.用于肺热咳嗽、咯痰黄稠及肺痈等症。  瓜蒌甘寒清润，有清肺化痰功效，故可用于痰热咳嗽、咯痰稠厚、咳吐不利及肺痈等症，常与知母、浙贝母、生苡仁、冬瓜子等配伍同用。  2.用于胸痹胁痛及乳痈肿痛等症。  瓜蒌能清上焦的积热，又可化浊痰的胶结，故能通胸膈的痹塞，而治胸痹胁痛，在应用时常与薤白配伍。此外，本品还可用于乳痈初起、肿痛而未成脓者，与蒲公英、乳香等合用，有消肿散结的功效。  3.用于肠燥便秘。  瓜蒌仁质润多油，善涤痰垢而导积滞，医学教育|网搜集整理有滑肠通便的功效，可用于肠燥便秘等症，常与火麻仁、郁李仁等配伍应用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R392", "http://www.openkg.cn/COVID-19/medical/resource/R393" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "瓜蒌"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R114",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R374", "http://www.openkg.cn/COVID-19/medical/resource/R375", "http://www.openkg.cn/COVID-19/medical/resource/R376", "http://www.openkg.cn/COVID-19/medical/resource/R377", "http://www.openkg.cn/COVID-19/medical/resource/R372", "http://www.openkg.cn/COVID-19/medical/resource/R373" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R219", "http://www.openkg.cn/COVID-19/medical/resource/R332", "http://www.openkg.cn/COVID-19/medical/resource/R181" ],
+    "P80" : "凡表证未罢，血虚气弱，脾胃虚寒，无实热、积滞、瘀结，以及胎前、产后，均应慎服。①《本草经集庄》：黄芩为之使。②《药性论》：忌冷水。恶干漆。③《本草经疏》：凡血闭由于血枯，而不由于热积；寒热由于阴虚，而不由于瘀血；症瘕由于脾胃虚弱，而不由于积滞停留；便秘由于血少肠燥，而不由于热结不通；心腹胀满由于脾虚中气不运，而不由于饮食停滞；女子少腹痛由于厥阴血虚，而不由于经阻老血瘀结；吐、衄血由于阴虚火起于下，炎烁乎上，血热妄行，溢出上窍，而不由于血分实热；偏坠由于肾虚，湿邪乘虚客之而成，而不由于湿热实邪所犯；乳痈肿毒由于盱家气逆，郁郁不舒，以致营气不从，逆于肉里，乃生痈肿，而不由于膏粱之变，足生大疔，血分积热所发，法咸忌之，以其损伤胃气故耳。④《本草汇言》：凡病在气分，及胃寒血虚，并妊娠产后，及久病年高之人，并勿轻用大黄。⑤《本经逢原》：肾虚动气及阴疽色白不起等证，不可妄用。",
+    "P81" : "3～15g；用于泻下不宜久煎。外用适量，研末敷于患处。",
+    "P82" : "①用于血小板减少症及止血用酒洗大黄10克，甘油5毫升，苯甲醇2毫升，制成注射液100毫升。每次2毫升，肌肉注射。对血小板减少症每日1次，手术后止血用每日2次。亦有用生大黄9钱，石灰1两，文火炒拌，直至石灰呈灰粉红色时取出，加入明矾（每100克石灰加入明矾0.6克）共研细粉。将此粉16克加水至100毫升，振荡后沉淀过滤。用时取棉球浸药水压迫出血处。经应用于500余人次外伤出血，证明止血效果良好，未见不良反应及副作用。此外，对晚期血吸虫病食道静脉破裂出血患者，用大黄炭1.6克，白芍炭1.6克，加葡萄糖粉（或细白糖）30克共研细末，小量分次干吞（于1天内吞完）。治疗10例，均达到止血效果。一般平均在7～8天能起床活动.服用该药后可见恶心消失、胃部舒适、大便逐渐恢复正常，并无迅速腹水蓄积后遗症出现。 ②治疗口腔炎、口唇溃疡及毛囊炎等用生大黄3～8钱，煎取150～500毫升（每剂最多使用2天），供漱口、湿热敷及洗涤用，每天4～6次。治疗前先清洗局部，除净分泌物。本法对于一般金黄色葡萄球菌感染的口腔炎、口唇溃疡、皮肤毛囊炎及头部疖肿等炎性疾患均有效，局部培养金黄色葡萄球菌的转阴日数亦比较迅速。 ③治疗烫伤先取陈石灰10斤除净杂质，过筛，投入锅内用文火炒松，再投人大黄片5斤，共同拌炒，俟石灰炒至带桃红色、大黄炒至灰黑色时，即出锅筛去石灰；将大黄摊开冷却后研成细粉备用。用时先以生理盐水清洗创面，而后撒布大黄粉。如有水泡应刺破；拨开表皮，排净泡液后再撒药粉。如仅见局部红肿，则可用麻油或桐油将大黄粉调成糊状涂患处。换药时如发现伤处溃烂，应拭去脓液、脓痴后再撒药粉。在夏季可行暴露疗法。共治疗415例，均获显著效果，且疗程短，无副作用，愈后无疤痕。 ④治疗臁疮（下肢溃疡）用生大黄5～7钱，研成极细粉末；另取甘草捶碎，去净纤维，取细粉约为大黄的1／5量，共研极细。先用温开水洗净疮面，揩干后均匀撤布药粉，再用千层（又名千张或百页，为纯黄豆制成品，以薄而韧者为良）覆盖包好。如有渗液外流，可听其自然，第2天再洗。每日换药1次。轻者换药3～6次，重者8～9次，即可新生肉芽。此时不可再洗，药粉可少用或不用，但千层必需每日一换。当结痂牢固时会发生痒感，不可揭去痂盖，隔5～7日或7日以上，痴盖自然脱落。治疗12例均愈，其中1例病程达13年，经用药粉6日，贴千层20余日，便结痴而愈。 ⑤治疗小儿蛔虫性肠梗阻用大黄粉蜜合剂（生大黄粉5钱，炒至微黄的米粉3钱，蜂蜜2两，加适量温开水调匀），每小时服1次，每次约1汤匙，全剂分12次服完；至排出蛔虫为止。经治6例均排出蛔虫，症状解除而愈。排虫最多者达60余条。排虫后均无持续腹泻现象。 ⑥治疗肠胀气用大黄1两研成细末，加适量醋调成糊状，敷于两侧涌泉穴上，每次二小时，必要时可敷2～3次。临床观察6例，一般敷药后一小时即出现肠腔蠕动感和肛门排气现象，自觉腹胀减轻，有肠鸣音。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R249",
+    "P88" : "http://www.openkg.cn/COVID-19/medical/resource/R378",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生大黄"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R115",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生炙"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R116",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P69" : "http://www.openkg.cn/COVID-19/medical/resource/R111",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R402", "http://www.openkg.cn/COVID-19/medical/resource/R403", "http://www.openkg.cn/COVID-19/medical/resource/R386" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R219", "http://www.openkg.cn/COVID-19/medical/resource/R332", "http://www.openkg.cn/COVID-19/medical/resource/R238" ],
+    "P80" : "孕妇及便溏者慎用。",
+    "P81" : "5～10g。",
+    "P82" : "1.用于症瘕结块，肺痈肠痈，跌仆伤痛，经闭痛经，产后瘀痛等症。  本品活血祛瘀作用亦较广泛，对上述瘀血阻滞病症，甚为常用。治肺痈可配芦根、薏苡仁同用；治肠痈，可配大黄、丹皮同用；治症瘕结块医|学教育网整理，可配大黄、庶虫等同用；治跌仆伤痛，可配柴胡、穿山甲同用；治经闭痛经，可配红花、当归等同用；治产后瘀痛，可配当归、炮姜等同用。  2.用于肠燥便秘。  桃仁有润燥滑肠的作用，用于大便秘结，可配火麻仁、柏子仁、当归、杏仁等。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R249",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R319", "http://www.openkg.cn/COVID-19/medical/resource/R404", "http://www.openkg.cn/COVID-19/medical/resource/R405" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "桃仁"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R117",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R408", "http://www.openkg.cn/COVID-19/medical/resource/R407" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R324", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "肺虚喘咳，脾肾阳虚水肿禁服。",
+    "P81" : "内服：煎汤，6-12g；若入丸、散时酌减。",
+    "P82" : "1.生用  　　(1)胸水：常与大黄、芒硝、杏仁、甘遂等同用，治结胸证胸胁积水，项亦强者，有泻热逐水之功，如大陷胸丸(《伤寒》)。亦可与陈大戟、陈甘遂、薤白、三七等同用，能利水逐饮，用于渗出性胸膜炎，有中等量到大量胸腔积液者，如胸渗丸(《实用专病专方临床大全》)。  　　(2)水肿：《删补名医方论》苏葶定喘丸，治饮停上焦，喘满不得卧，面身水肿，小便不利，本品与苏子、大枣肉同用，有降气平喘，利水消肿的作用。亦可与郁李仁、白术、牵牛子(生、熟各半)：桑白皮、泽泻等配伍，用于湿热中阻，水肿胀满或蛊胀，有分利湿热，泻水消肿的作用，如葶苈丸(《济生方》)。  　　2.制用  　　(1)痰饮喘咳：本品与大枣合用，能泻肺行水，下气平喘，用于痰涎壅盛，咳嗽胸满或面目浮肿，如葶苈大枣泻肺汤(《金匮》)。若于上方中加麻黄、杏仁或者加党参、桑白皮，均可增强其平喘消肿的作用。  　　(2)肺痈：可与桔梗、薏苡仁、贝母、金银花、甘草等同用，治肺痈咳唾脓血，有清热解毒作用，如葶苈薏苡泻肺汤(《张氏医通》)，方中葶苈子宜炒用。亦可用葶苈大枣泻肺汤治肺痈初起，尚未成脓，喘咳不能卧者，有泻肺平喘作用。  　　(3)肠间水饮或腹水：《金匮要略》己椒苈黄丸，与防己、椒目、大黄同用，治水饮停聚，水走肠间，辘辘有声，腹满便秘，小便不利，有泻下水饮，利尿通便的作用;亦可用本方治肝硬化腹水，肺心病水肿及肾炎水肿属实证者，有行水消肿作用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R313",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R410", "http://www.openkg.cn/COVID-19/medical/resource/R411", "http://www.openkg.cn/COVID-19/medical/resource/R409" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "葶苈子"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R118",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R327", "http://www.openkg.cn/COVID-19/medical/resource/R100", "http://www.openkg.cn/COVID-19/medical/resource/R326", "http://www.openkg.cn/COVID-19/medical/resource/R325" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R315", "http://www.openkg.cn/COVID-19/medical/resource/R331", "http://www.openkg.cn/COVID-19/medical/resource/R369" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R324" ],
+    "P80" : "体虚自汗、盗汗、虚喘及阴虚阳亢者禁服。麻黄发寒力较强，故表虚自汗和阴虚盗汗，喘咳肾不纳气的虚喘者均应慎用麻黄。而且，麻黄兴奋中枢神经，多汗、失眠者慎用麻黄。",
+    "P81" : "2～10g。",
+    "P82" : "1.用于感冒风寒及麻疹透发不畅，风疹身痒等症。  麻黄性温辛散，能发汗散寒而解表，又可散风透疹。用治外感风寒所引起的发热恶寒、无汗等症，常与桂枝相须为用，有发汗解表的作用。如治麻疹透发不畅，兼有咳嗽气急症状时，可在辛凉透疹药中酌加麻黄，因肺主皮毛，本品既能宣肺，又能发散，可收透疹、平喘的效果。至于用治风疹身痒，可与薄荷、蝉衣等药配伍应用。  2.用于咳嗽、气喘。  麻黄能宣畅肺气而止咳平喘，故临床往往用治外邪侵袭、肺气不畅所致的喉痒咳嗽、咯痰不爽或咳嗽紧迫、胸闷、气喘等症。如寒邪咳喘，多配杏仁、甘草同用；外有寒邪，内有痰饮，常配细辛、干姜、五味子、半夏等同用；至于肺热咳喘，常配石膏、杏仁、甘草等同用。  3.用于风水水肿等症。  麻黄既能发汗，又能利尿，故适用于水肿而伴有表症者，常与白术、生姜等同用。",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R370", "http://www.openkg.cn/COVID-19/medical/resource/R371" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "麻黄"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "疫毒闭肺方剂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R120",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "P24" : "http://www.openkg.cn/COVID-19/medical/resource/R145",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸困难"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R121",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "动辄气喘或需要辅助通气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R122",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伴神昏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R123",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "烦躁"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R124",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "汗出肢冷"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R125",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "舌质紫暗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R126",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "苔厚腻或燥"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R127",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脉浮大无根"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R128",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "内闭外脱方剂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肺脾气虚方剂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R130",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R128",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R59",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R239", "http://www.openkg.cn/COVID-19/medical/resource/R240" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R228", "http://www.openkg.cn/COVID-19/medical/resource/R229", "http://www.openkg.cn/COVID-19/medical/resource/R226", "http://www.openkg.cn/COVID-19/medical/resource/R227", "http://www.openkg.cn/COVID-19/medical/resource/R225" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R182", "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R238", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P82" : "临床报道： 1. 治疗哮喘　移山参9～10g，蛤蚧1对（去头），水煎服，每日1剂，连服1～2天，待症状控制后改研粉，每日6g，分服。治疗哮喘重症16例，临床控制9 例，显效3例，好转3例，无效1例。〔中西医结合杂志　1983；（1）：8〕 　　2. 治疗急性呼吸功能不全　红参25g，麦冬 15g，二味分别单煎当茶饮。并随证加用中药煎服。治疗烧伤面积在80％以上，呼吸功能不全的患者6 例， 有4例急性呼吸功能不全、症状体征消失，全身及烧伤创面状况改善。经对照观察，疗效优于对照组。〔中西医结合杂志　1982；（4）：224〕 　　3. 治疗心律失常　切新开河参原药为0.5～1mm 半透明饮片，每日早、晚置1片于口中缓慢含化，维持阶段日含1片，10天为1疗程。治疗25例，其中房 颤8例，显效6例，有效2例；病窦综合征6例，显效3例，有效3例；室早9例，显效4例，有效3例，无效2例；房早2例，有效2例。〔浙江中医杂志　1990； 25 （2）：81〕 　　4. 治疗老年人病窦综合征　红人参1.5～3.0g，每日1次或分2次放口中逐渐含化咽下，20～30 天为1疗程，一般用药1～2疗程。治疗48例，其中有发作 性晕厥者6例均有效；心率小于55 次/分钟者36例，17例恢复正常；快慢综合征16例，14例有效；发作性房颤16例，有效9例；持续性房颤10例，均无效；阵 发性室上速11例，均有效；Ⅱ度房室传导阻滞8例，4例有效；Ⅰ度房室阻滞5 例均显效；Ⅱ度窦房阻滞3例，2例有效。〔中华老年医学杂志　1990； 9 （1）：49〕 5. 治疗慢性肝病　人参、琥珀末、三七，按 2:1:2 的比例配伍，共研细末，每次3g，日服3次。治疗33例，显效9例；好转13例；无效11例。〔江苏中医　 1990； 11（6）：8〕 　　6. 治疗脱肛　 a. 人参芦头20枚，文火焙干研末，分20包，早晚空腹米饭调服1包，小儿酌减，10天为1疗程。治疗26例，疗效甚佳。〔中成药研究　1983；（1）：48〕 　　b. 人参芦1个研末，开水冲服，每日1次，连服20天，治疗Ⅰ期脱肛50例，全部治愈。〔四川中医　1985； 3（1）：33〕 　　7. 治疗宫颈糜烂　人参干膏粉、蛤蚧粉、黄连素、乳香、没药、儿茶、冰片、铅丹按5:2:0.2:0.2:0.2:0.3: 0.1:2的比例，分别研细过筛，取各药混 匀，装入胶囊，每粒重0.5g。先用 1:1000 新洁尔灭冲洗阴道，然后将药放入阴道后穹窿部，每次2粒，隔日1次，4次为1疗程。严禁口服。治疗311例，治 愈率为93.6%，总有效率为98.7%。〔中医杂志　1983；（11）：39〕 方剂选用： 1. 治疗营卫气虚，脏腑怯弱，心腹胀满，全不思食，肠鸣泄泻，呕哕吐逆：人参（去芦）、白术、茯苓（去皮）、甘草（炙）各等分。上为细末，每服二 钱，水一盏，煎至七分，通口服，不拘时，入盐少许，白汤点亦得。常服温和脾胃，进益饮食，辟寒邪瘴雾气。（《太平惠民和剂局方》四君子汤） 　　2. 治疗胃虚冷，中脘气满，不能传化，善饥不能食：人参末二钱，生附子末半钱，生姜一分（切碎）。上三味和匀，用水七合，煎至二合，以鸡子一 枚取清，打转，空心顿服。（《圣济总录》温胃煮散） 　　3. 治疗肺虚久咳：人参末二两，鹿角胶（炙，研）一两。每服三钱，用薄荷、豉汤一盏，葱少许，入铫子煎一、二沸，倾入盏内，遇咳时，温呷三、 五口。（《食疗本草》） 　　4. 治疗阳虚气喘，自汗盗汗，气短头晕：人参五钱，熟附子一两。分为四帖，每帖以生姜十片，流水二盏，煎一盏，食远温服。（《济生方》） 　　5. 治疗心气虚损，怔忡而自汗者：猪腰子一只，用水两碗，煮至一盏半，将腰子细切，入人参半两，当归（上去芦、下去细者，取中段）半两。并 切，同煎至八分，吃腰子，以汁送下。有吃不尽腰子，同上二味药滓，焙干，为细末，山药糊丸如梧桐子大，每服三、五十丸。（《百一选方》） 　　6. 治疗心气不定，五脏不足，恍惚振悸，差错谬忘，梦寐惊魇，恐怖不宁，喜怒无时，朝差暮剧，暮差朝剧，或发狂眩：远志（去苗及心）、菖蒲各 二两，人参、白茯苓（去皮）各三两。上为细末，炼蜜丸如梧桐子大，朱砂为衣。每服七丸，加至二十丸，温米饮下，食后临卧日三服。（《太平惠民和剂 局方》定志丸） 　　7. 治疗消渴引饮：人参为末，鸡子清调服一钱，日三、四服。（《本草纲目》） 　　8. 治疗消渴引饮无度：人参、瓜蒌根各等分。生为末，炼蜜为丸，梧桐子大，每服三十丸，麦冬汤送下。（《仁斋直指方》玉壶丸） 　　9. 治疗胸痹心中痞气，气结在胸，胸满，胁下逆抢心：人参、甘草、干姜、白术各三两。上四味，以水八升，煮取三升，温服一升，日三服。（《金 匮要略》人参汤） 　　10. 治疗妊娠，酸心吐清水，腹痛不能饮食：人参（去芦）、干姜（炮）各等分。上为末，用生地黄汁，丸如梧子大。每服五十丸，米汤下，食前服。 （《太平惠民和剂局方》小地黄丸） 配伍效用： 人参配伍白术 人参补脾益气；白术健脾燥湿。二者相须为用，有补气健脾燥湿之功效，用于治疗脾虚失运之食少纳呆、大便溏泻等症。 　　人参配伍当归 人参甘温，补气、固脱；当归甘温，补血、活血。二者伍用，气血双补，共奏补气固脱、养血活血之功效，用于治疗因出血而气脱之自 汗频频、气短脉微；气血两虚之头晕心悸、气短乏力、失眠健忘以及气虚血淤之胸痛胸闷、心悸、口唇紫暗等症。 　　人参配伍附子 人参甘温大补元气以固脱；附子辛热回阳而救逆。二者相使为用，有大补元气、回阳固脱之功效，用于治疗重病、久病、失血等所引起 元气大亏、阳气暴脱而表现出气急喘促、四肢厥逆、汗出黏冷、呼吸微弱、脉细微欲绝等症。 　　人参配伍诃子 人参益肺补脾、大补元气；诃子敛肺下气、涩肠固脱。二者合用，共奏补肺敛肺止咳、健脾固脱止泻之功效，用于治疗肺虚久咳久嗽； 脾虚久泻久痢以及气虚下陷脱肛等。 　　人参配伍胡桃肉 人参甘温补益肺气；胡桃肉温涩入肾，既能润肺，又能纳肾气以平喘。二药伍用，有温补肺肾、纳气定喘之功效，用于治疗肺肾虚寒 之咳嗽气喘。 　　人参配伍黄芪 人参善补五脏之气，补气兼能养阴；黄芪善走肌表，补气兼能扶阳。二者相须为用，有补中气、升脾阳之功效，用于治疗中阳不足、气 虚下陷之倦怠乏力、食少便溏、久泄久痢、脱肛、子宫脱垂、胃下垂等症。 　　人参配伍麦冬 人参益气生津；麦冬养阴生津。二者伍用，共奏益气生津之功效，用于治疗热病后期、气阴耗损之神疲气短、口干口渴等症。 　　人参配伍生石膏 人参益气生津；生石膏清热止渴。二者合用，有清热益气、扶正祛邪之功效，用于治疗热病气阴两伤之身热口渴、气短乏力、汗出、 脉大无力者。 　　人参配伍熟地 人参峻补元气，熟地补血填精。二者相伍，人参得熟地，则助气、化气；熟地得人参，则生血、行血。二药相辅相成，共奏补气养血之 功效，用于治疗气血两虚之头晕、心慌、气短、乏力、失眠、健忘、月经过多、闭经等症。",
+    "P87" : [ "http://www.openkg.cn/COVID-19/medical/resource/R224", "http://www.openkg.cn/COVID-19/medical/resource/R223" ],
+    "P88" : "http://www.openkg.cn/COVID-19/medical/resource/R250",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "人参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R131",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R128",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R59",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R361", "http://www.openkg.cn/COVID-19/medical/resource/R364", "http://www.openkg.cn/COVID-19/medical/resource/R327", "http://www.openkg.cn/COVID-19/medical/resource/R367", "http://www.openkg.cn/COVID-19/medical/resource/R113", "http://www.openkg.cn/COVID-19/medical/resource/R362", "http://www.openkg.cn/COVID-19/medical/resource/R360", "http://www.openkg.cn/COVID-19/medical/resource/R368", "http://www.openkg.cn/COVID-19/medical/resource/R365", "http://www.openkg.cn/COVID-19/medical/resource/R363", "http://www.openkg.cn/COVID-19/medical/resource/R359", "http://www.openkg.cn/COVID-19/medical/resource/R366" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R358", "http://www.openkg.cn/COVID-19/medical/resource/R356", "http://www.openkg.cn/COVID-19/medical/resource/R357" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R182", "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R238" ],
+    "P80" : "孕妇慎用，不宜与半夏、瓜蒌、瓜萎子、瓜蒌皮、天花粉、川贝母、浙贝母、平贝母、伊贝母、湖北贝母、白蔹、白及同用。",
+    "P81" : "3～15g，先煎，久煎。",
+    "P82" : "1.用于厥逆亡阳、脉微欲绝等症。  附子辛烈而热，主要用于冷汗自出、四肢厥逆、脉微弱，或因大汗、大吐、大逆的功效，常配合人参、干姜、炙甘草等品同用。如果冷汗淋漓、亡阳厥逆者，用附子、人参外，须再加龙骨、牡蛎等固涩敛汗药；如果大出血后引手足厥冷、汗出脉微，可以用参、附、龙、牡配合麦冬、五味子等同用，以回阳救阴。  2.用于肾阳不足、畏寒肢冷，脾阳不振、腹痛、便溏等症。  附子功能峻补元阳，益火之源，凡肾阳不足、命火衰微、畏寒肢冷、阳萎、尿频之症，皆可应用，多配伍肉桂、熟地、菟丝子、山萸肉等同用；如脾阳不振、脘腹冷痛、大便溏泄之症，又可用附子配合益气温脾的的党参、白朮、干姜、炙甘草等药同用。  3.用于风寒湿痹、周身骨节疼痛等症。  附子药性温热，能祛除寒湿，因此对风湿痹痛属于寒气偏胜者，有良好的散寒止痛作用，常与桂枝等品合用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "黑顺片"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R132",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R128",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R59",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R355", "http://www.openkg.cn/COVID-19/medical/resource/R354", "http://www.openkg.cn/COVID-19/medical/resource/R353" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R351", "http://www.openkg.cn/COVID-19/medical/resource/R350" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R219", "http://www.openkg.cn/COVID-19/medical/resource/R182" ],
+    "P80" : "凡命门火炽，强阳不痿，素有湿热，小便淋涩者忌服。",
+    "P81" : "内服：煎汤，1.5～3钱；或入丸、散。",
+    "P82" : "1. 用于肝肾不足，头晕目眩，耳鸣，腰酸。与熟地、枸杞子、菟丝子、杜仲等配伍。  2. 用于遗精，遗尿，小便频数，及虚汗不止。对肾阳不足引起的遗精、尿频均可应用，常配合熟地、菟丝子、沙苑蒺藜、补骨脂等同用；对于虚汗不止，本品又有敛汗作用，可与龙骨、牡蛎等同用。",
+    "P87" : [ "http://www.openkg.cn/COVID-19/medical/resource/R313", "http://www.openkg.cn/COVID-19/medical/resource/R346" ],
+    "P88" : "http://www.openkg.cn/COVID-19/medical/resource/R352",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "山茱萸"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R133",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "气短"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R134",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "纳差呕恶"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R135",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "痞满"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R136",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "大便无力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R137",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "便溏不爽"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R138",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "舌淡胖"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R139",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P69" : "http://www.openkg.cn/COVID-19/medical/resource/R347",
+    "P72" : "http://www.openkg.cn/COVID-19/medical/resource/R339",
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R181" ],
+    "P80" : "不宜与乌头类药材同用。",
+    "P81" : "9～30g。",
+    "P82" : "1.用于痰多咳嗽。  半夏性燥而功能化痰，其所化之痰，医学教育|网搜集整理以脾不化湿，聚而成痰者为主，为治湿痰的要药，适用于痰湿壅滞、咳嗽气逆等症，常与陈皮、茯苓等配伍；治痰多咳嗽，又常与贝母配伍应用。因其性温，故又可用治寒痰，宜与白芥子、生姜等同用；因其化痰力佳，故亦可治热痰与风痰，治热痰可与瓜蒌、黄芩等配伍；致风痰，宜与天南星等同用。  2.用于胸脘痞闷，胸痹，结胸等症。  半夏功能辛散温通、化痰、燥湿，故可用于痰内阻、胸脘痞闷病症，可配陈皮、茯苓等同用；如寒热互结，有可配黄芩、黄连、干姜等同用，可收辛开苦降、散结除痞的功效（如半夏泻心汤）。此外，又常用于胸痹疼痛，配瓜蒌、薤白等同用；治结胸症可与瓜蒌、黄连等同用。  3.用于瘿瘤瘰历、疮疡肿痛、梅核气等症。  半夏又能化痰散结，可用以治疗痰湿结聚所致的瘿瘤、瘰历痰核、阴疽肿痛，或痰气互结的梅核气等病症。用治瘿瘤瘰历痰核，可与海藻、黄独、贝母等配用。痈疽未溃者可用生半夏配生南星等同研，调醋外敷，有散结消肿的功效。用治梅核气，可配厚朴、紫苏等同用。  4.用于胃气上逆、恶心呕吐。  半夏有良好的降逆止呕功效，可用于多种呕吐症候，在使用时应根据不同的症状而予以不同的配伍。如治胃寒呕吐，可配合生姜或藿香、丁香等品；治胃热呕吐可配合黄连、竹茹等药；治妊娠呕吐，可配合灶心土等品；治胃虚呕吐，可配人参、白蜜同用。",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R349", "http://www.openkg.cn/COVID-19/medical/resource/R348" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "法半夏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R140",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P69" : "http://www.openkg.cn/COVID-19/medical/resource/R239",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R342", "http://www.openkg.cn/COVID-19/medical/resource/R343" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "有实邪者忌服。不宜与藜芦同用。",
+    "P81" : "9～30g。",
+    "P82" : "①八珍汤（《瑞竹堂经验方》）治气血两虚证。面色苍白或萎黄，头晕目眩，四肢倦怠，气短懒言，心悸怔仲，饮食减少，舌淡苔薄白，脉细弱或虚大无力。当归30g，川芎30g，熟地黄30g，白芍药30g，党参30g，甘草30g，茯苓30g，白术30g。每服3钱，通口服。方中党参与熟地相配，甘温益气补血，为君药。 ②.十全大补汤（《传信适用方》）治气血两虚证。面色萎黄，倦怠食少，头晕目眩，神疲气短，心悸怔忪，自汗盗汗，四肢不温，舌淡，脉细弱，以及妇女崩漏，月经不调，疮疡不敛等。党参6g，白术9g，白茯苓9g，白芍药9g，黄芪12g，川芎6g，干熟地黄12g，当归9g，甘草3g，生姜3片，大枣2个。每服3钱，去渣温服，不拘时候。方中党参甘温益气补血，为君药。 [4]",
+    "P87" : [ "http://www.openkg.cn/COVID-19/medical/resource/R313", "http://www.openkg.cn/COVID-19/medical/resource/R345", "http://www.openkg.cn/COVID-19/medical/resource/R346" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "党参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R141",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P72" : "http://www.openkg.cn/COVID-19/medical/resource/R340",
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R180" ],
+    "P80" : "1、如果是属于肾阴虚、湿热以及热毒炽盛的患者，那么千万不要服用黄芪泡水，因为这不仅不能够令身体恢复健康，反而会加重病情。这一类型的患者想要令身体恢复健康，那么就应该将黄连、大黄、败酱草以及栀子一起泡水服用，千万不能够选择黄芪。  2、如果是患有肺结核的患者，症状主要表现为咳血、口干舌燥以及身体发热，那么我们也是不建议单独使用黄芪泡水喝的，一定要根据具体情况搭配合适的中药。  3、正在月经期间的女性也是不能够服用黄芪水，否则会对月经还有身体造成不利影响。  4、感冒发热的患者也别服用黄芪，这不利于身体退烧。  5、怀孕期间的女性服用黄芪也需要特别的注意，因为很有可能导致滑胎，对胎儿和孕妇造成伤害，特别是孕晚期的准妈妈更是需要特别注意。孕妇如果不小心使用了黄芪，那么有可能导致体内的羊水减少，这样在分娩的时候产程就有可能增加，这增加了胎儿的危险。另外还有研究结果显示，服用黄芪之后会增加染色体畸形以及细胞微核率的增加，对于将来孩子的身体以及智力发育造成损伤，所以正在备孕以及怀孕的女性服用黄芪都需要谨慎。  从季节来说，普通人春天不宜吃黄芪。同理，春天是生发的季节，人体需要宣发，吃黄芪就不太适宜了。从身体状况来说，感冒、经期都不要吃黄芪。从体质上来说，黄芪最适合气虚脾湿型的人，这种人往往身体虚胖，肌肉松软，尤其是腹部肌肉松软。而身体十分干瘦结实的人则不宜",
+    "P81" : "9～30g 。",
+    "P88" : "http://www.openkg.cn/COVID-19/medical/resource/R250",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "炙黄芪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R142",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R294", "http://www.openkg.cn/COVID-19/medical/resource/R295", "http://www.openkg.cn/COVID-19/medical/resource/R293", "http://www.openkg.cn/COVID-19/medical/resource/R296", "http://www.openkg.cn/COVID-19/medical/resource/R292" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R298", "http://www.openkg.cn/COVID-19/medical/resource/R299", "http://www.openkg.cn/COVID-19/medical/resource/R297" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R182", "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R238" ],
+    "P80" : "虚寒精滑者忌服。",
+    "P81" : "煎服，9-15g。",
+    "P82" : "1.生用  　　(1)水肿：常配伍猪苓、泽泻、桂枝、白术等，能加强利水消肿之功，可用水湿停聚，水肿胀满，小便不利等，如五苓散(《伤寒论》)。亦可用本品配伍白术、郁李仁、生姜汁煎服治水肿。  　　(2)痰饮：常与桂枝、白术、甘草等同用，能加强温脾化饮作用，可用于脾阳虚不能运化水湿，水饮停胃，或上逆犯肺而致的胸胁痞满，眩晕心悸，或短气而咳，食少便溏，小便短少，精疲力倦等，如苓桂术甘汤(《伤寒论》)。  　　(3)热淋：常配伍栀子、木通、滑石等，能清热利尿通淋，可用于下焦湿热而致的小便淋漓涩痛等。  　　(4)泄泻：常配伍党参、白术、山药、砂仁等，能健脾止泻，可用于脾虚夹湿大便泄泻，食欲不振等，如参苓白术散(《局方》)。  　　(5)呕吐：配伍半夏、生姜等，能和胃止呕，健脾利水，可用于饮停胃中，脾失运化，清阳不升而致的呕吐水液，心下痞满，眩晕心悸等，如小半夏加茯苓汤。  　　2.制用(朱茯苓)  　　(1)失眠：常与酸枣仁、远志等同用，能加强安神作用，可用于心神不宁之失眠。如心脾两虚之失眠，可配伍党参、白术，酸枣仁等同用，虚火旺者配伍生地、熟地、黄连、五味子等同用;痰热内扰者，又当配伍竹沥、半夏、胆南星、陈皮、远志等同用。  　　(2)惊悸：常配伍人参、龙齿、磁石等，能益气安神镇心，可用于心神不宁，心悸善惊，坐卧不安等。若为阴虚火旺的惊悸，配伍生地、黄连、朱麦冬等;痰火扰心者，又当配伍黄连、竹沥半夏、陈胆星等同用。  　　(3)健忘：常配伍党参、白术、五味子等，可用于心脾两虚，心失所养，记忆力减退，遇事善忘等。若为心肾阴亏，髓海空虚，精血不能上承养脑而致者，常与龙骨、龟甲、菖蒲等同用。  　　3.茯苓皮  　　水肿：常配伍生姜皮、大腹皮、陈皮、桑白皮等，能加强利水消肿之功，可用于水肿小便不利者，如五皮散(《中藏经》)。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R301", "http://www.openkg.cn/COVID-19/medical/resource/R300" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "茯苓"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R143",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R290", "http://www.openkg.cn/COVID-19/medical/resource/R291", "http://www.openkg.cn/COVID-19/medical/resource/R289", "http://www.openkg.cn/COVID-19/medical/resource/R288" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R237" ],
+    "P80" : "不宜久煎，阴虚火旺者禁服。",
+    "P81" : "煎服，5-10g。鲜品加倍。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "藿香"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R144",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R277", "http://www.openkg.cn/COVID-19/medical/resource/R278", "http://www.openkg.cn/COVID-19/medical/resource/R276" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R182", "http://www.openkg.cn/COVID-19/medical/resource/R181", "http://www.openkg.cn/COVID-19/medical/resource/R180" ],
+    "P80" : "阴虚有热者禁服。",
+    "P81" : "煎服，3-6g，入汤剂宜后下。",
+    "P82" : "1.用于湿浊困脾之证。本品气味芳香，善入脾胃，长于化湿醒脾，行气和胃，温中散寒，为化湿行气，醒脾和胃之良药。适用于湿浊阻中，脘腹胀痛，食少纳呆，呕吐腹泻之证。常与白豆蔻等化湿药同用，以增强化湿行气之效。  　　而本品又长于行气温中，故对于寒湿气滞者尤宜。若寒湿内阻，脘腹胀闷冷痛，食少腹泻，常与草豆蔻、干姜等温中、化湿药配伍。若脾胃气滞，脘腹胀满作痛，常与木香、枳实等行气除胀止痛药配伍。若脾虚气滞，食少纳差，脘腹胀闷，常与补气健脾药配伍，如《张氏医通》香砂六君子汤，以之与人参、白术等药同用。  　　2.用于脾胃虚寒之吐泻。本品善于温脾暧胃，利气快膈，并能止呕、止泻，故适用于脾胃虚寒之吐泻证。治中焦虚寒，胃气上逆所致的脘腹冷痛，呕吐、呃逆者，常与干姜、半夏等温中止呕药配伍。  　　治脾胃虚寒，清浊不分，腹痛泄泻者，可单用，如《小儿卫生总微论 》缩砂散，以本品为末拌猪肚服，治小儿滑泻，脱肛；也常与白术、干姜等温脾药配伍。若治湿伤脾胃、升降失职，吐泻腹痛，本品又能化湿醒脾，止吐止泻，常与藿香、半夏、木瓜等化湿和中、降逆止呕之品配伍。  　　此外，砂仁尚能安胎，可用于胎动不安。若气血不足，胎动不安者，宜与人参、白术、熟地黄等补气养血药配伍。若肾虚胎元不固，胎动不安者，宜与杜仲、续断、桑寄生等补肾安胎药配伍。若妊娠恶阻，呕恶不能食者，宜与苏梗、白术等和胃安胎药配伍。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R285", "http://www.openkg.cn/COVID-19/medical/resource/R281", "http://www.openkg.cn/COVID-19/medical/resource/R282", "http://www.openkg.cn/COVID-19/medical/resource/R287", "http://www.openkg.cn/COVID-19/medical/resource/R284", "http://www.openkg.cn/COVID-19/medical/resource/R280", "http://www.openkg.cn/COVID-19/medical/resource/R286", "http://www.openkg.cn/COVID-19/medical/resource/R283" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "砂仁"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R145",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R412",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "氧饱和度"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R146",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "动脉血氧分压"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R147",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R253",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R254",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "吸氧浓度"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R149",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "卧床休息加强支持治疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R150",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "根据病情监测指标"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R151",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "P50" : [ "http://www.openkg.cn/COVID-19/medical/resource/R160", "http://www.openkg.cn/COVID-19/medical/resource/R159", "http://www.openkg.cn/COVID-19/medical/resource/R158", "http://www.openkg.cn/COVID-19/medical/resource/R157", "http://www.openkg.cn/COVID-19/medical/resource/R156" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "抗病毒治疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R152",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "抗菌药物治疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R153",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "P49" : [ "http://www.openkg.cn/COVID-19/medical/resource/R155", "http://www.openkg.cn/COVID-19/medical/resource/R154" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "氧疗措施"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R154",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "鼻导管"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R155",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "面罩"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R156",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "α-干扰素"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R157",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "灭菌注射用水"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R158",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "P62" : [ "http://www.openkg.cn/COVID-19/medical/resource/R258", "http://www.openkg.cn/COVID-19/medical/resource/R259" ],
+    "P66" : "成人本品的推荐剂量为2片，每日2次。本品可以与食物同服或不与食物同服。本品应该整片咽下，不能咀嚼、掰开或压碎。合并治疗依非韦仑、奈韦拉平、安泼那韦，Fosamprenavir或奈非那韦本品可以推荐剂量（2片，每日2次）和上述这些药物合并使用, 而不需要调整剂量。儿童患者成人的推荐剂量（2片，每日2次）可以用于体重大于等于40kg的儿童或体表面积（BSA＝SQR RT[身高（cm）× 重量（kg）]/3600）大于1.3mSUP>2的儿童。体重小于40kg的儿童或体表面积（BSA）低于1.3mSUP>2的儿童推荐使用儿童剂量的洛匹那韦利托那韦口服液。",
+    "P86" : "肝损伤本品主要经肝脏代谢；因此，当对有肝损害的病人给药时应小心，本品现无在重度肝损伤患者中的研究。携带乙型或丙型肝炎病毒的中重度肝损害的患者的药代动力学研究表明其洛匹那韦的血药浓度大约增加30％，而其血浆蛋白结合率 降低。患有乙型或丙型肝炎患者，或者在治疗前转氨酶就显著升高的病人，转氨酶进一步升高的风险较大。有些本品上市后的研究报告了患者肝功能障碍情况，包括一些死亡的病例。这些病例一般见于原来有慢性肝炎或肝硬化的晚期HIV病患者合用多种药物的情况。对于AST/AlT升高的患者应该考虑给予监测，特别是接受本品治疗的初始几个月内。耐药性/交叉耐药性在蛋白酶抑制剂间观察到了不同程度的交叉耐药性。本品对随后使用的其它蛋白酶抑制剂疗效的影响正在研究之中。血友病曾有患A型或B型血友病患者接受蛋白酶抑制剂治疗时出血增多的报告，包括自发性皮肤血肿和关节积血。有些患者给予了辅助因子Ⅷ。报告病例中一半以上继续或重新使用蛋白酶抑制剂进行治疗。尚未明确蛋白酶抑制剂治疗与这些事件的因果关系。脂肪再分布曾在接受抗逆转录病毒治疗的患者观察到身体脂肪的再分布或堆积，包括向心性肥胖、背颈部脂肪增多（水牛背）、四肢消瘦、面部消瘦、乳房增大和“库兴氏综合征面容”等症状。这些症状的发生机理和远期后果目前未知。尚未确定其因果关系。脂质升高洛匹那韦/利托那韦治疗可引起总胆固醇和甘油三酯浓度大幅上升。在开始用本品治疗过程中以及在治疗的间歇期应定期检测甘油三酯和胆固醇水平。应采取恰当的临床措施处理脂质紊乱。免疫重组综合症已经有报告在联合使用抗逆转录酶病毒剂治疗时会发生免疫重组综合症，包括洛匹那韦/利托那韦。在联合抗逆转录酶病毒剂治疗的初始阶段，那些患者的免疫系统应答可能会产生对无症状感染 或残余机会感染的炎症反应（如分支杆菌感染，细胞巨化病毒，卡氏肺孢子虫肺炎或结核），可能需要进一步进行评价和治疗。",
+    "P89" : "http://www.openkg.cn/COVID-19/medical/resource/R257",
+    "P90" : [ "http://www.openkg.cn/COVID-19/medical/resource/R164", "http://www.openkg.cn/COVID-19/medical/resource/R161", "http://www.openkg.cn/COVID-19/medical/resource/R162", "http://www.openkg.cn/COVID-19/medical/resource/R163" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "洛匹那韦"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R159",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "P62" : [ "http://www.openkg.cn/COVID-19/medical/resource/R260", "http://www.openkg.cn/COVID-19/medical/resource/R261", "http://www.openkg.cn/COVID-19/medical/resource/R262" ],
+    "P66" : "成人本品的推荐剂量为2片，每日2次。本品可以与食物同服或不与食物同服。本品应该整片咽下，不能咀嚼、掰开或压碎。合并治疗依非韦仑、奈韦拉平、安泼那韦，Fosamprenavir或奈非那韦本品可以推荐剂量（2片，每日2次）和上述这些药物合并使用, 而不需要调整剂量。儿童患者成人的推荐剂量（2片，每日2次）可以用于体重大于等于40kg的儿童或体表面积（BSA＝SQR RT[身高（cm）× 重量（kg）]/3600）大于1.3mSUP>2的儿童。体重小于40kg的儿童或体表面积（BSA）低于1.3mSUP>2的儿童推荐使用儿童剂量的洛匹那韦利托那韦口服液。",
+    "P83" : "本品禁用于已知对洛匹那韦、利托那韦或者任何辅料过敏的患者。本品不能与那些主要依赖CYP3A清除且其血药浓度升高引起严重和/或致命不良事件的药物同时用药。",
+    "P86" : "肝损伤本品主要经肝脏代谢；因此，当对有肝损害的病人给药时应小心，本品现无在重度肝损伤患者中的研究。携带乙型或丙型肝炎病毒的中重度肝损害的患者的药代动力学研究表明其洛匹那韦的血药浓度大约增加30％，而其血浆蛋白结合率 降低。患有乙型或丙型肝炎患者，或者在治疗前转氨酶就显著升高的病人，转氨酶进一步升高的风险较大。有些本品上市后的研究报告了患者肝功能障碍情况，包括一些死亡的病例。这些病例一般见于原来有慢性肝炎或肝硬化的晚期HIV病患者合用多种药物的情况。对于AST/AlT升高的患者应该考虑给予监测，特别是接受本品治疗的初始几个月内。耐药性/交叉耐药性在蛋白酶抑制剂间观察到了不同程度的交叉耐药性。本品对随后使用的其它蛋白酶抑制剂疗效的影响正在研究之中。血友病曾有患A型或B型血友病患者接受蛋白酶抑制剂治疗时出血增多的报告，包括自发性皮肤血肿和关节积血。有些患者给予了辅助因子Ⅷ。报告病例中一半以上继续或重新使用蛋白酶抑制剂进行治疗。尚未明确蛋白酶抑制剂治疗与这些事件的因果关系。脂肪再分布曾在接受抗逆转录病毒治疗的患者观察到身体脂肪的再分布或堆积，包括向心性肥胖、背颈部脂肪增多（水牛背）、四肢消瘦、面部消瘦、乳房增大和“库兴氏综合征面容”等症状。这些症状的发生机理和远期后果目前未知。尚未确定其因果关系。脂质升高洛匹那韦/利托那韦治疗可引起总胆固醇和甘油三酯浓度大幅上升。在开始用本品治疗过程中以及在治疗的间歇期应定期检测甘油三酯和胆固醇水平。应采取恰当的临床措施处理脂质紊乱。免疫重组综合症已经有报告在联合使用抗逆转录酶病毒剂治疗时会发生免疫重组综合症，包括洛匹那韦/利托那韦。在联合抗逆转录酶病毒剂治疗的初始阶段，那些患者的免疫系统应答可能会产生对无症状感染 或残余机会感染的炎症反应（如分支杆菌感染，细胞巨化病毒，卡氏肺孢子虫肺炎或结核），可能需要进一步进行评价和治疗。",
+    "P89" : "http://www.openkg.cn/COVID-19/medical/resource/R249",
+    "P90" : [ "http://www.openkg.cn/COVID-19/medical/resource/R163", "http://www.openkg.cn/COVID-19/medical/resource/R164", "http://www.openkg.cn/COVID-19/medical/resource/R161", "http://www.openkg.cn/COVID-19/medical/resource/R162" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利托那韦"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R160",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "P62" : "http://www.openkg.cn/COVID-19/medical/resource/R256",
+    "P66" : "成人一次0.15g，一日3次，疗程7日",
+    "P83" : "口服",
+    "P84" : "与齐多夫定同用时有拮抗作用，因本品可抑制齐多夫定转变成活性型的磷酸齐多夫定。",
+    "P86" : "​1．有严重贫血、肝功能异常者慎用。 2. 对诊断的干扰：口服本品后引起血胆红素增高者可高达25%。大剂量可引起血红蛋白下降。 3. 尽早用药。呼吸道合胞病毒性肺炎病初3天内给药一般有效。本品不宜用于未经实验室确诊为呼吸道合胞病毒感染的患者。 4. 长期或大剂量服用对肝功能、血象有不良影响。",
+    "P89" : "http://www.openkg.cn/COVID-19/medical/resource/R249",
+    "P90" : [ "http://www.openkg.cn/COVID-19/medical/resource/R243", "http://www.openkg.cn/COVID-19/medical/resource/R242", "http://www.openkg.cn/COVID-19/medical/resource/R245", "http://www.openkg.cn/COVID-19/medical/resource/R244" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利巴韦林"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R161",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R162",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶心"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R163",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呕吐"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R164",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肝功能损害"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R165",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "氧疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R166",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "高流量鼻导管氧疗或无创机械通气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R167",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "有创机械通气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R168",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C39",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "挽救治疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R169",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "低氧血症"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R170",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C1",
+    "http://www.openkg.cn/COVID-19/medical/property/P1" : 2.2,
+    "P10" : [ "http://www.openkg.cn/COVID-19/medical/resource/R183", "http://www.openkg.cn/COVID-19/medical/resource/R184" ],
+    "P11" : "http://www.openkg.cn/COVID-19/medical/resource/R185",
+    "P12" : [ "http://www.openkg.cn/COVID-19/medical/resource/R190", "http://www.openkg.cn/COVID-19/medical/resource/R191" ],
+    "P13" : "http://www.openkg.cn/COVID-19/medical/resource/R186",
+    "P14" : "http://www.openkg.cn/COVID-19/medical/resource/R187",
+    "P2" : "1-14天，多为3-7天",
+    "P3" : "有包膜，颗粒呈圆形或者椭圆形，常为多形性，直径60-140nm。",
+    "P5" : "体外分离培养时，2019-nCoV 96个小时左右即可在人呼吸道上皮细胞内发现，而在Vero E6 和Huh-7细胞系中分离培养需约6天。病毒对紫外线和热敏感，56℃ 30分钟、乙醚、75%乙醇、含氯消毒剂、过氧乙酸和氯仿等脂溶剂均可有效灭活病毒，氯已定不能有效灭火病毒。",
+    "P6" : "早期呈现多发小斑片影及间质改变，以肺外带明显。进而发展为双肺多发磨玻璃影、浸润影、严重者可出现肺实变，胸腔积液少见。",
+    "P7" : "发病早期外周血白细胞总数正常，淋巴细胞计数减少，部分患者可出现肝酶、乳酸脱氢酶（LDH）、肌酶和肌红蛋白增高；部分危重者可见肌钙蛋白增高。多数患者C反应蛋白（CRP）和血沉升高，降钙素原正常。严重者D-二聚体升高、外周血淋巴细胞进行性减少。 在鼻咽拭子、痰、下呼吸道分泌物、血液、粪便等标本中可检测出新型冠状病毒核酸。",
+    "P8" : "主要与流感病毒、副流感病毒、腺病毒、呼吸道合胞病毒、鼻病毒、人偏肺病毒、SARS冠状病毒等其他已知病毒性肺炎鉴别，与肺炎支原体、衣原体肺炎及细菌性肺炎等鉴别。此外，还要与非感染性疾病，如血管炎、皮肌炎和机化性肺炎等鉴别。",
+    "http://www.openkg.cn/COVID-19/medical/property/P9" : 14.0,
+    "P92" : "其基因特征与SARSr-CoV和MERSr-CoV有明显区别。目前研究显示与蝙蝠SARS样冠状病毒（bat-SL-CoVZC45）同源性达85%以上。",
+    "P93" : "http://www.openkg.cn/COVID-19/medical/resource/R241",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "新型冠状病毒（SARS-CoV-2）"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R180",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脾经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R181",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胃经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R182",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肾经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R183",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C4",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸道飞沫传播"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R184",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C4",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "密切接触传播"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R185",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C3",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "普遍人群"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R186",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C7",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "β属的新型冠状病毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R187",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "P17" : "http://www.openkg.cn/COVID-19/medical/resource/R188",
+    "P18" : [ "http://www.openkg.cn/COVID-19/medical/resource/R44", "http://www.openkg.cn/COVID-19/medical/resource/R45" ],
+    "P20" : [ "http://www.openkg.cn/COVID-19/medical/resource/R204", "http://www.openkg.cn/COVID-19/medical/resource/R206", "http://www.openkg.cn/COVID-19/medical/resource/R208", "http://www.openkg.cn/COVID-19/medical/resource/R205", "http://www.openkg.cn/COVID-19/medical/resource/R210", "http://www.openkg.cn/COVID-19/medical/resource/R207", "http://www.openkg.cn/COVID-19/medical/resource/R212", "http://www.openkg.cn/COVID-19/medical/resource/R209", "http://www.openkg.cn/COVID-19/medical/resource/R211" ],
+    "P21" : [ "http://www.openkg.cn/COVID-19/medical/resource/R200", "http://www.openkg.cn/COVID-19/medical/resource/R196", "http://www.openkg.cn/COVID-19/medical/resource/R81", "http://www.openkg.cn/COVID-19/medical/resource/R198", "http://www.openkg.cn/COVID-19/medical/resource/R169", "http://www.openkg.cn/COVID-19/medical/resource/R195", "http://www.openkg.cn/COVID-19/medical/resource/R197", "http://www.openkg.cn/COVID-19/medical/resource/R120", "http://www.openkg.cn/COVID-19/medical/resource/R201", "http://www.openkg.cn/COVID-19/medical/resource/R467", "http://www.openkg.cn/COVID-19/medical/resource/R199", "http://www.openkg.cn/COVID-19/medical/resource/R194" ],
+    "P61" : "http://www.openkg.cn/COVID-19/medical/resource/R189",
+    "P76" : "http://www.openkg.cn/COVID-19/medical/resource/R213",
+    "P77" : "http://www.openkg.cn/COVID-19/medical/resource/R213",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "2019冠状病毒病（COVID-19）"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R188",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C17",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "武汉"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R189",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C25",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸科"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R190",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C3",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "新型冠状病毒感染的患者"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R191",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C3",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "无症状感染者"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R194",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "乏力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R195",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发热"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R196",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "鼻塞"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R197",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "流涕"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R198",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "咽痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R199",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R200",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "P25" : [ "http://www.openkg.cn/COVID-19/medical/resource/R252", "http://www.openkg.cn/COVID-19/medical/resource/R169", "http://www.openkg.cn/COVID-19/medical/resource/R251" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "急性呼吸窘迫综合征"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R201",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脓毒症休克"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R202",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "难以纠正的代谢性酸中毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R203",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C2",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "凝血功能障碍"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R204",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "尽量减少外出，不要去人群聚集处，避免近距离接触任何有感冒或流感样症状的人"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R205",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "P26" : "http://www.openkg.cn/COVID-19/medical/resource/R460",
+    "P27" : "http://www.openkg.cn/COVID-19/medical/resource/R185",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "外出前往公共场所、就医和乘坐交通工具时，注意佩戴医用外科口罩或N95口罩"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R206",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "不要接触、购买和食用野生动物（即野味），避免在未加防护的情况下接触野生动物和家禽家畜"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R207",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "P26" : [ "http://www.openkg.cn/COVID-19/medical/resource/R462", "http://www.openkg.cn/COVID-19/medical/resource/R461" ],
+    "P27" : "http://www.openkg.cn/COVID-19/medical/resource/R185",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "注意手卫生，勤洗手，使用洗手液或肥皂，流水洗手，或使用含酒精成分的免洗洗手液"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R208",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "打喷嚏或咳嗽时不要用手去捂，要用手肘部或纸巾遮住口、鼻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R209",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "居室及工作场所保持清洁，勤开窗，多保持通风状态"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R210",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "注意多喝水、多休息、避免熬夜、适度运动，以提高个体免疫能力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R211",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "注意营养、合理饮食，肉类、禽类和蛋类要充分煮熟后食用"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R212",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C5",
+    "P26" : [ "http://www.openkg.cn/COVID-19/medical/resource/R460", "http://www.openkg.cn/COVID-19/medical/resource/R463" ],
+    "P27" : "http://www.openkg.cn/COVID-19/medical/resource/R185",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "准备常用物资，如体温计、一次性口罩、家庭用消毒用品等"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R213",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C33",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肺部"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R215",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "湿阻中焦"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R216",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "泄泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R219",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肝经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R223",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "煎兑服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R224",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "研粉吞服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R225",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "大补元气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R226",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "复脉固脱"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R227",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "补脾益肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R228",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生津养血"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R229",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "安神益智"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R237",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肺经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R238",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "心经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R239",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P69" : [ "http://www.openkg.cn/COVID-19/medical/resource/R265", "http://www.openkg.cn/COVID-19/medical/resource/R267", "http://www.openkg.cn/COVID-19/medical/resource/R264", "http://www.openkg.cn/COVID-19/medical/resource/R268", "http://www.openkg.cn/COVID-19/medical/resource/R263", "http://www.openkg.cn/COVID-19/medical/resource/R266", "http://www.openkg.cn/COVID-19/medical/resource/R130" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R269", "http://www.openkg.cn/COVID-19/medical/resource/R270" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R219", "http://www.openkg.cn/COVID-19/medical/resource/R181" ],
+    "P80" : "体虚气弱者及孕妇禁服。反细辛、芍药、人参、沙参、丹参、玄参、苦参。服之吐不止，可饮葱汤解。",
+    "P81" : "内服：入丸、散，0.3-0.6g。外用：适量，研末，油或水调涂。",
+    "P82" : "①治疗疟疾  取天目藜芦3根(1寸长)，插入鸡蛋(1个)内烧熟。去药吃蛋。于发作前1～2小时服。忌鱼腥;孕妇及溃疡病患者忌服。治疗现症病人120例，痊愈100例，好转15例，无效5例;休止期患者36例，痊愈33例，无效3例。  ②治疗骨折  能促进骨折愈合，从而缩短治愈时间，尤以股骨干骨折最为突出，平均临床愈合日期为37天，但愈合时间长短与骨折类型及手法复位技术有明显关系。据认为，应用藜芦治疗，需在骨折两断端血运良好的条件下才能充分发挥其作用，用法：将黑藜芦根须洗净、晒干、研粉，加等量黄连素制成含量10毫克之片剂内服。成人每次 30毫克，日服3次，用凉开水送下。用药时间依据临床愈合情况而定，一般约为2～4周。同时按常规予以复位及固定。服药后多数病例脉搏偏快，全身和局部有发热感;3例发现在肝功能正常情况下血清碱性磷酸酶均有所增高。",
+    "P87" : [ "http://www.openkg.cn/COVID-19/medical/resource/R272", "http://www.openkg.cn/COVID-19/medical/resource/R271" ],
+    "P88" : [ "http://www.openkg.cn/COVID-19/medical/resource/R274", "http://www.openkg.cn/COVID-19/medical/resource/R273", "http://www.openkg.cn/COVID-19/medical/resource/R275" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "藜芦"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R240",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P80" : "孕妇慎用；人参畏五灵脂。",
+    "P81" : "5~15克，外用适量，研粉酒调敷。",
+    "P82" : "1.治产后恶露不快，腰痛，少腹如刺，时作寒热，头痛不思饮食;又治久有瘀血，月水不调，黄瘦不食;亦疗心痛五灵脂水淘净，炒末100克，以好米醋调稀，慢火熬膏，入真蒲黄和丸如龙眼大。每服一丸，以水与童子小便各半盏，煎至七分，温服，少顷再服;经闭者，酒磨服下。(《产乳集验方》紫金丸)  2.治妇人心痛血气，刺不可忍五灵脂(净好者)、蒲黄等分。为末，每服10克。用好醋一杓，熬成膏，再入水一盏，同煎至七分，热服。(《证类本草》引《经效方》失笑散)  3.治产妇血晕昏迷，上冲闷绝，不知人事五灵脂100克，一半炒熟，一半生用，捣罗为散。每服10克，温熟水调下;如口噤者，以物斡开口灌之。(《本草图经》独胜散)  4.治血积心痛五灵脂(去土，醋炒)、元胡索(醋炒)、香附(酒炒)、没药(箬上炙干)等分。并为细末。每服15克，热酒调下。血老者，用红花2.5克，桃仁十粒，煎酒调下。(《医学心悟》手拈散)  5.治急心痛，胃脘疼痛 五灵脂、玄胡索、蓬术、当归、良姜各等分。上为细末。每服淡醋汤调10克，食前服。(《杏苑生春》愈痛散)  6.治一切心腹痛及小肠气 巴豆(去皮、膜，纸裹出尽油)、干姜(炮)、五灵脂(去沙石)各10克。上件为细末，醋煮面糊为丸如粟米大。每服五丸，醋汤下。实者，每服十丸，不拘时候。(《杨氏家藏方》灵脂丸)  7.治虫心痛欲绝 五灵脂(末)10克，白矾(火飞)3克。同研。每服5~10克，水一盏，煎五分，温服，无时。(《阎氏小儿方论》)  8.治风冷气血闭，手足身体疼痛，冷麻 五灵脂100克，没药50克，乳香50克，川乌头75克(炮去皮)。同为末，滴水丸如弹子大。每用一丸，生姜温酒磨服。(《本草衍义》)  9.治偏风，卒中风 五灵脂、乌头(去皮、脐并尖，并生用，各取净末)各等分。合研令匀，滴新水和入臼中，杵一千下，丸如弹子大，生绢袋子内盛之，悬透风处。每丸分四服，烂嚼温酒下，吃十服后，一丸分二服;更十日后，却一丸分四服，一月内必差。如不吃酒，薄荷茶下亦得，然不如酒服。(《圣济总录》铁弹丸)  10.治血崩不止 五灵脂500克。捣罗为末，以水五大盏，煎至三盏，去滓澄清，再煎为膏，入神曲末100克，合和丸如梧子大。每服二十丸，温酒下，空心服。(《本草图经》)  11.治妇人经血不止 五灵脂末，炒令过熟，出尽烟气。每服大两饯，用当归两片，酒一中盏，与药末同煎至六分，去滓热服，连三五服。(《证类本草》引《经效方》)  12.治吐血，呕血 ①五灵脂50克，芦荟10克。二味捣研为末，滴水和丸如鸡头大，捏作饼子。每服二饼，龙脑浆水化下，不拘时。(《圣济总录》五灵脂饼子)②黄耆25克(细研)，五灵脂50克。上二味捣罗为散。每服10克，新汲水调下，不拘时。(《圣济总录》黄耆散)  13.治噎膈，痞块，疳积等症 五灵脂(炒令烟尽，研细)、真阿魏(去砂，另研细)等分。用雄黄、胆汁和丸如黍米大。空心唾津送下，每服三十丸。忌食羊肉、醋、面。(《简便单方》)  14 消食，消积，消痞，消痰，消气，消滞，消肿，消痛，消血，消痢，消盅，消膈，梢胀，消闷，并治痰迷心窍郁症香附(去净毛，水浸一日)、五灵脂各500克，黑丑、白丑各100克。上药共研细末，以一半微火炒熟，一半生用，和匀，真米醋糊为丸，如莱菔子大。每服5克，姜汤送下，每日早晚各吃一服。有病即化，至愈为度，切勿多服。(《经验奇方》五香丸)  15.治痢痛 五灵脂、蒲黄(炒)各等分，麝香少许。上为末，炼蜜和丸如梧桐子大。每服一丸，醋汤下。(《普济方》舒眉丸)  16.治消渴 五灵脂、黑豆(去皮脐)。上等分为细末。每服15克，冬瓜汤调下，无冬瓜，苗叶皆可，日二服，小渴二三服效，渴定不可服热药。(《保命集》竹笼散)  17.治喘嗽浮肿 五灵脂25克，马兜铃、槟榔(锉)各0.5克。上三味，粗捣筛。每服5克，蜜半匙，水一盏，煎至七分，去滓热服。(《圣济总录》五灵脂汤)  18.治肺胀 五灵脂(研)100克，柏子仁50克，胡桃八枚(去壳，研)。上三味研成膏，滴水为丸，如小豆大。煎木香、甘草汤下十五丸。(《圣济总录》皱肺丸)  19.治痈疽，疮疖，毒肿，无头疼痛，或有数头 五灵脂不以多少，微炒为末，新水调，涂于故绯上，贴之。(《普济方》神明膏)  20.治骨折肿痛 五灵脂、白及各50克，乳香、没药各15克。为末，熟水同香油调涂患处。(《乾坤秘韫》)  21.治毒蛇咬伤 五灵脂50克，雄黄25克。同为末，以酒调10克灌之，药滓敷咬处。(《本草衍义》)  22.治目生浮翳 五灵脂、海螵蛸各等分。为细末，熟猪肝日蘸食。(《明目经验方》)  23.治重舌，喉痹 五灵脂50克。为细末，用米醋一大碗煎，旋噙漱口。(《经验良方》)  24.治积年口疮 五灵脂50克，杏仁四十九枚(汤浸去皮、尖、双仁)，黄丹半两(炒令紫色)。上件药，捣细罗为散，用生蜜调令得所，每取少许涂于疮上，有涎即吐之。(《圣惠方》)  25.治恶血牙痛  ① 川五灵脂，以米醋煎汁含咽。(《直指方》灵脂醋)  ② 五灵脂50克，川椒25克。共末，擦患处。(《疑难急症简方》)",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "五灵脂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R241",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C4",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "气溶胶传播"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R242",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "贫血"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R243",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "乏力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R244",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "头痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R245",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "轻度腹泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R249",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "口服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R250",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "上火"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R251",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "心源性呼吸窘迫"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R252",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "口唇发绀"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R253",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "吸氧机"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R254",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "P58" : "http://www.openkg.cn/COVID-19/medical/resource/R255",
+    "P60" : "http://www.openkg.cn/COVID-19/medical/resource/R189",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R255",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C27",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "病原核酸检测"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R256",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "齐多夫定"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R257",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "吞服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R258",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "辛伐他汀"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R259",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "洛伐他汀"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R260",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "西地那非"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R261",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "他达拉非"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R262",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C28",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伐地那非"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R263",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "细辛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R264",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "芍药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R265",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "沙参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R266",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "丹参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R267",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "玄参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R268",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "苦参"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R269",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "涌吐风痰"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R270",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "杀虫"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R271",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "内服：入丸、散。"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R272",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "外用：适量，研末，油或水调涂。"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R273",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "服之吐不止"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R274",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "服之令人烦闷吐逆"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R275",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "大损津液"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R276",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化湿行气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R277",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R425",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "温中止泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R278",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R425",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "安胎"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "煎服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R280",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "荨麻疹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R281",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "猩红热样皮疹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R282",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "麻疹样皮疹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R283",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "多形红斑"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R284",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "湿疹样皮疹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R285",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹部、外生殖器出现大小不等的团块"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R286",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹部、外生殖器出现大小不等淡红色皮疹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R287",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹部、外生殖器出现大小不等的风团"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R288",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R425",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化湿醒脾"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R289",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "辟秽和中"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R290",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "解暑"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R291",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发表"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R292",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶白蔹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R293",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "畏地榆"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R294",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "秦艽"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R295",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "龟甲"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R296",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "雄黄"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R297",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R426",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利水渗湿"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R298",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R426",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "健脾"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R299",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R427",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "宁心"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R300",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伤津耗液"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R301",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "加重脱水症状"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R302",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "解表散寒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R303",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R425",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "温中止呕"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R304",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R429",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化痰止咳"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R305",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "解鱼蟹毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R306",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "捣汁服"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R307",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "久服小志少智"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R308",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伤心气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R309",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "黄芩"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R310",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "黄连"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R311",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛风胜湿"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R312",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "止痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R313",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "煎汤"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R314",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发汗散寒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R315",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "宣肺平喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R316",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "行水消肿"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R317",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "散阴疽"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R318",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "消癥结"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R319",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "头晕"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R320",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "情绪紧张"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R321",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "失眠"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R322",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "心率加快"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R323",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "高血压患者更容易引发血压急速升高"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R324",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "膀胱经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R325",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "辛夷"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R326",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "石韦"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R327",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "白蔹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R328",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "燥湿除寒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R329",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R430",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛痰截疟"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R330",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R431",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "健脾开胃"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R331",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R432",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利水消肿"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R332",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C30",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "大肠经"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R333",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "行气消积"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R334",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "燥湿除满"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R335",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "降逆平喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R336",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶硝石"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R337",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "泽泻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R338",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "理气健脾"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R339",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R433",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "燥湿化痰"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R340",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "益气补中"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R342",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "健脾益气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R343",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R436",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "补肺止咳"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R345",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "熬膏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R346",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C41",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "入丸、散"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R347",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "乌头类药材"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R348",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生法半夏误服微量即可中毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R349",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "对局部黏膜强烈刺激性"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R350",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R434",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "补益肝肾"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R351",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R435",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "涩精固脱"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R352",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "会导致胎儿以及动物的胚胎出现一定的致畸作用"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R353",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "防风"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R354",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "防己"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R355",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "桔梗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R356",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R437",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "回阳救逆"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R357",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R437",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "补火助阳"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R358",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R437",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "散寒止痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R359",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "半夏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R360",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "瓜萎子"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R361",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "瓜蒌皮"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R362",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "天花粉"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R363",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "川贝母"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R364",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "浙贝母"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R365",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "平贝母"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R366",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "伊贝母"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R367",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "湖北贝母"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R368",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "白及"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R369",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发汗解表"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R370",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "长期使用产生抑制"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R371",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "长期使用也可影响心率，引起心率失常"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R372",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "攻积滞"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R373",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R438",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清湿热"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R374",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R439",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "泻火"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R375",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R440",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "凉血"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R376",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛瘀"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R377",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "解毒"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R378",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹泻腹痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R379",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清热泻火"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R380",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "除烦止渴"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R381",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "收敛生肌"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R382",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "疲惫乏力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R383",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "精神不振"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R384",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胃口欠佳"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R385",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R441",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "降气止咳平喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R386",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "润肠通便"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R387",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹泻和腹痛"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R388",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "黄芪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R389",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "葛根"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R390",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清热涤痰"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R391",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "宽胸散结"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R392",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胃部不适"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R393",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶性呕吐"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R394",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶干姜"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R395",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "牛膝"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R396",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "反乌头"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R397",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R433",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "消积"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R398",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R442",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利水"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R399",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R442",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "截疟"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R400",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "口腔溃疡"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R401",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "牙龈退变"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R402",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "P75" : "http://www.openkg.cn/COVID-19/medical/resource/R441",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "活血祛瘀"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R403",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "止咳平喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R404",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呕心"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R405",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸麻痹"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R407",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "下气行水"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R408",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C31",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛痰定喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R409",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "过敏性休克"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R410",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "对粘膜刺激"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R411",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C42",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "影响水盐代谢"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R412",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "血氧饱和度检测仪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R414",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R420",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R456",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "早期呈现多发小斑片影及间质改变，以肺外带明显"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R415",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R420",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R456",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "严重者可出现肺实变，胸腔积液少见"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R416",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R420",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R456",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "双肺多发磨玻璃影、浸润影"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R417",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R421",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "RR（呼吸率）"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R418",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R422",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸道标本或血液标本实时荧光RT-PCR检测新型冠状病毒核酸阳性"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R419",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R423",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸道标本或血液标本病毒基因测序，与已知的新型冠状病毒高度同源。"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R420",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "CT扫描仪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R421",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸机"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R422",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "核酸试剂和CT"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R423",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "基因测序仪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R424",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "补气药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R425",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化湿药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R426",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "利水渗湿药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R427",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "养心安神药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R428",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "辛温解表药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R429",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "止咳平喘药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R430",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "杀虫燥湿止痒药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R431",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "消食药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R432",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "化痰药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R433",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "理气药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R434",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛风湿强筋骨药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R435",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "涩精止遗药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R436",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "祛风湿药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R437",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "温里药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R438",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清虚热药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R439",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清热泻火药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R44",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "P28" : [ "http://www.openkg.cn/COVID-19/medical/resource/R64", "http://www.openkg.cn/COVID-19/medical/resource/R63", "http://www.openkg.cn/COVID-19/medical/resource/R62", "http://www.openkg.cn/COVID-19/medical/resource/R65" ],
+    "P29" : [ "http://www.openkg.cn/COVID-19/medical/resource/R69", "http://www.openkg.cn/COVID-19/medical/resource/R66", "http://www.openkg.cn/COVID-19/medical/resource/R67", "http://www.openkg.cn/COVID-19/medical/resource/R68" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "疑似病例"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R440",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "清热凉血药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R441",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "活血祛瘀药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R442",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C32",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "驱虫药"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R443",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R451",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R452",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "外周血白细胞总数正常或减低，淋巴细胞计数减少"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R444",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P52" : "http://www.openkg.cn/COVID-19/medical/resource/R451",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R452",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "D-二聚体升高、外周血淋巴细胞进行性减少"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R447",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R453",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肝酶、LDH、肌酶和肌红蛋白增高"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R448",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R453",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肌钙蛋白增高"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R449",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P53" : [ "http://www.openkg.cn/COVID-19/medical/resource/R455", "http://www.openkg.cn/COVID-19/medical/resource/R454" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "C反应蛋白（CRP）和血沉升高，降钙素原正常"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R45",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C16",
+    "P28" : [ "http://www.openkg.cn/COVID-19/medical/resource/R71", "http://www.openkg.cn/COVID-19/medical/resource/R70" ],
+    "P29" : [ "http://www.openkg.cn/COVID-19/medical/resource/R76", "http://www.openkg.cn/COVID-19/medical/resource/R75", "http://www.openkg.cn/COVID-19/medical/resource/R74", "http://www.openkg.cn/COVID-19/medical/resource/R73", "http://www.openkg.cn/COVID-19/medical/resource/R77", "http://www.openkg.cn/COVID-19/medical/resource/R78", "http://www.openkg.cn/COVID-19/medical/resource/R72" ],
+    "P30" : [ "http://www.openkg.cn/COVID-19/medical/resource/R46", "http://www.openkg.cn/COVID-19/medical/resource/R49", "http://www.openkg.cn/COVID-19/medical/resource/R48", "http://www.openkg.cn/COVID-19/medical/resource/R47" ],
+    "P31" : [ "http://www.openkg.cn/COVID-19/medical/resource/R470", "http://www.openkg.cn/COVID-19/medical/resource/R59", "http://www.openkg.cn/COVID-19/medical/resource/R60", "http://www.openkg.cn/COVID-19/medical/resource/R472", "http://www.openkg.cn/COVID-19/medical/resource/R58", "http://www.openkg.cn/COVID-19/medical/resource/R474", "http://www.openkg.cn/COVID-19/medical/resource/R471", "http://www.openkg.cn/COVID-19/medical/resource/R473", "http://www.openkg.cn/COVID-19/medical/resource/R61" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "确诊病例"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R450",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C23",
+    "P53" : "http://www.openkg.cn/COVID-19/medical/resource/R452",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "动脉血氧分压（PaO2）"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R451",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C24",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "全自动流式血细胞计数仪"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R452",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "P58" : "http://www.openkg.cn/COVID-19/medical/resource/R457",
+    "P60" : "http://www.openkg.cn/COVID-19/medical/resource/R458",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "血常规"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R453",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "P58" : "http://www.openkg.cn/COVID-19/medical/resource/R459",
+    "P60" : "http://www.openkg.cn/COVID-19/medical/resource/R458",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生化检查"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R454",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "P60" : "http://www.openkg.cn/COVID-19/medical/resource/R458",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "血清学检查、红细胞沉降率、降钙素原检测"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R455",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "P60" : "http://www.openkg.cn/COVID-19/medical/resource/R458",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脑脊液检查、红细胞沉降率、降钙素原检测"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R456",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C26",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肺部CT"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R457",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C27",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "自动化血液分析仪检验"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R458",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C25",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "检验科"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R459",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C27",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "生化指标检测"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R46",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "轻型"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R460",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C6",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "口罩"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R461",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C6",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "免洗洗手液"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R462",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C6",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肥皂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R463",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C6",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "体温计"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R466",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发病前14天内与新型冠状病毒感染者（核酸检测阳性者）有接触史"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R467",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "多器官功能衰竭"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R47",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "P42" : [ "http://www.openkg.cn/COVID-19/medical/resource/R151", "http://www.openkg.cn/COVID-19/medical/resource/R153", "http://www.openkg.cn/COVID-19/medical/resource/R150", "http://www.openkg.cn/COVID-19/medical/resource/R149" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "普通型"
+    },
+    "sameAs" : "较轻"
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R470",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "轻型：湿热藴肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R471",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "普通型：湿毒郁肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R472",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "普通型：寒湿阻肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R473",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "重型：气营两燔"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R474",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恢复期：气阴两虚"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R48",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "P41" : [ "http://www.openkg.cn/COVID-19/medical/resource/R169", "http://www.openkg.cn/COVID-19/medical/resource/R73" ],
+    "P42" : [ "http://www.openkg.cn/COVID-19/medical/resource/R168", "http://www.openkg.cn/COVID-19/medical/resource/R167", "http://www.openkg.cn/COVID-19/medical/resource/R166", "http://www.openkg.cn/COVID-19/medical/resource/R165" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "重型"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R49",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C21",
+    "P42" : [ "http://www.openkg.cn/COVID-19/medical/resource/R168", "http://www.openkg.cn/COVID-19/medical/resource/R167", "http://www.openkg.cn/COVID-19/medical/resource/R166", "http://www.openkg.cn/COVID-19/medical/resource/R165" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "危重型"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "P39" : [ "http://www.openkg.cn/COVID-19/medical/resource/R83", "http://www.openkg.cn/COVID-19/medical/resource/R84", "http://www.openkg.cn/COVID-19/medical/resource/R90", "http://www.openkg.cn/COVID-19/medical/resource/R80", "http://www.openkg.cn/COVID-19/medical/resource/R86", "http://www.openkg.cn/COVID-19/medical/resource/R85", "http://www.openkg.cn/COVID-19/medical/resource/R81", "http://www.openkg.cn/COVID-19/medical/resource/R87", "http://www.openkg.cn/COVID-19/medical/resource/R88", "http://www.openkg.cn/COVID-19/medical/resource/R82", "http://www.openkg.cn/COVID-19/medical/resource/R89" ],
+    "P40" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "轻型：寒湿郁肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R59",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "P39" : [ "http://www.openkg.cn/COVID-19/medical/resource/R124", "http://www.openkg.cn/COVID-19/medical/resource/R125", "http://www.openkg.cn/COVID-19/medical/resource/R121", "http://www.openkg.cn/COVID-19/medical/resource/R120", "http://www.openkg.cn/COVID-19/medical/resource/R126", "http://www.openkg.cn/COVID-19/medical/resource/R127", "http://www.openkg.cn/COVID-19/medical/resource/R122", "http://www.openkg.cn/COVID-19/medical/resource/R123" ],
+    "P40" : "http://www.openkg.cn/COVID-19/medical/resource/R128",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "危重型：内闭外脱"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R60",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "P39" : [ "http://www.openkg.cn/COVID-19/medical/resource/R133", "http://www.openkg.cn/COVID-19/medical/resource/R136", "http://www.openkg.cn/COVID-19/medical/resource/R134", "http://www.openkg.cn/COVID-19/medical/resource/R83", "http://www.openkg.cn/COVID-19/medical/resource/R89", "http://www.openkg.cn/COVID-19/medical/resource/R135", "http://www.openkg.cn/COVID-19/medical/resource/R137", "http://www.openkg.cn/COVID-19/medical/resource/R138" ],
+    "P40" : "http://www.openkg.cn/COVID-19/medical/resource/R129",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恢复期：肺脾气虚"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R61",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C20",
+    "P39" : [ "http://www.openkg.cn/COVID-19/medical/resource/R93", "http://www.openkg.cn/COVID-19/medical/resource/R91", "http://www.openkg.cn/COVID-19/medical/resource/R109", "http://www.openkg.cn/COVID-19/medical/resource/R97", "http://www.openkg.cn/COVID-19/medical/resource/R96", "http://www.openkg.cn/COVID-19/medical/resource/R107", "http://www.openkg.cn/COVID-19/medical/resource/R108", "http://www.openkg.cn/COVID-19/medical/resource/R92", "http://www.openkg.cn/COVID-19/medical/resource/R94", "http://www.openkg.cn/COVID-19/medical/resource/R95" ],
+    "P40" : "http://www.openkg.cn/COVID-19/medical/resource/R119",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "重型：疫毒闭肺"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R62",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发病前14天内有武汉市及周边地区，或其他有病例报告社区的旅行史或居住史"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R63",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发病前14天内曾接触过来自武汉市及周边地区，或来自有病例报告社区的发热或有呼吸道症状的患者"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R64",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "聚集性发病"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R65",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "与新型冠状病毒感染者有接触史。新型冠状病毒感染者是指病原核酸检测阳性者"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R66",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发热和/或呼吸道症状"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R67",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "肺炎影像学特征"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R68",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发病早期白细胞总数正常或降低"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R69",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "淋巴细胞计数减少"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R70",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸道标本或血液标本实时荧光RT-PCR检测新型冠状病毒核酸阳性"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R71",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C18",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸道标本或血液标本病毒基因测序，与已知的新型冠状病毒高度同源"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R72",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "发热、呼吸道等症状，影像学可见肺炎表现"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R73",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呼吸窘迫"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R74",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "P24" : "http://www.openkg.cn/COVID-19/medical/resource/R145",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "静息状态下，指氧饱和度≤93%"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R75",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "P24" : [ "http://www.openkg.cn/COVID-19/medical/resource/R147", "http://www.openkg.cn/COVID-19/medical/resource/R146" ],
+    "label" : {
+      "@language" : "zh",
+      "@value" : "动脉血氧分压（PaO2）/吸氧浓度（FiO2）≤300mmHg（1mmHg=0.133kPa）"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R76",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "出现呼吸衰竭，且需要机械通气"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R77",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "出现休克"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R78",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "合并其他器官功能衰竭需ICU监护治疗"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R79",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C40",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "寒湿郁肺方剂"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R80",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "恶寒发热或无热"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R81",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "干咳"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R82",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "咽干"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R83",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "倦怠乏力"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R84",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胸闷"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R85",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脘痞"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R86",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "呕恶"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R87",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "便溏"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R88",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "舌质淡或淡红"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R89",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "苔白腻"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R90",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "脉濡"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R91",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "身热不退或往来寒热"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R92",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "咳嗽痰少"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R93",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "有黄痰"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R94",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "腹胀便秘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R95",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "胸闷气促"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R96",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "咳嗽喘憋"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R97",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C19",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "动则气喘"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R98",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : [ "http://www.openkg.cn/COVID-19/medical/resource/R79", "http://www.openkg.cn/COVID-19/medical/resource/R119" ],
+    "P68" : [ "http://www.openkg.cn/COVID-19/medical/resource/R58", "http://www.openkg.cn/COVID-19/medical/resource/R61" ],
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R216", "http://www.openkg.cn/COVID-19/medical/resource/R215" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R219", "http://www.openkg.cn/COVID-19/medical/resource/R180", "http://www.openkg.cn/COVID-19/medical/resource/R181" ],
+    "P80" : "阴虚内热，气虚多汗者忌用。",
+    "P81" : "煎服，5-10g。",
+    "P82" : "1.用于湿阻脾胃、脘腹胀满，寒湿白带，湿温病以及湿热下注、脚膝肿痛、痿软无力等症。  苍朮温燥而辛烈，主要用于寒湿较重的症候一般以舌苔白腻厚浊作为选用的依据。由于其燥湿力强，湿去则脾胃得以健运，故称其功用燥湿健脾。临床用治湿阻脾胃，而见脘腹胀满、食欲不振、倦怠乏力、舌苔白腻厚浊等症，常与厚朴、陈皮等配伍应用；用治寒湿白带，可配白芷同用。本品虽属温燥之品，然燥湿力强，又每配合清热之品以治湿热为患之证，如湿热白带，又可配知母、苦参、墓头回；湿热下注、脚膝肿痛、痿软无力，可配黄柏、牛膝、苡仁等同用；湿温病证可配石膏、知母等同用。  2.用于风湿痹痛、肢体关节疼痛。  本品既能温燥除湿，又能辛散祛风，散除经络肢体的风湿之邪，对寒湿偏重的痹痛尤为适宜，可配合羌活、独活等同用。  3.用于风寒表证。  本品辛散，兼能散寒解表，适用于感受风寒湿邪的头痛、身痛、无汗等症，常与羌活、细辛、防风等同用。  4.用于夜盲、眼目昏涩。  苍朮生用有明目之功，为治夜盲要药，可与猪肝或羊肝、石决明等配伍同用。  此外，本品气味芳香，又能辟秽，民间每于夏历端午节用苍朮与白芷在室内同燃，用以辟疫。经近人实验，此法确能起到消毒杀菌的作用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R279",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "苍术"
+    }
+  }, {
+    "@id" : "http://www.openkg.cn/COVID-19/medical/resource/R99",
+    "@type" : "http://www.openkg.cn/COVID-19/medical/class/C29",
+    "P67" : [ "http://www.openkg.cn/COVID-19/medical/resource/R79", "http://www.openkg.cn/COVID-19/medical/resource/R129" ],
+    "P68" : "http://www.openkg.cn/COVID-19/medical/resource/R58",
+    "P72" : [ "http://www.openkg.cn/COVID-19/medical/resource/R338", "http://www.openkg.cn/COVID-19/medical/resource/R339" ],
+    "P73" : [ "http://www.openkg.cn/COVID-19/medical/resource/R237", "http://www.openkg.cn/COVID-19/medical/resource/R180" ],
+    "P80" : "气虚证、阴虚燥咳、吐血证及舌赤少津、内有实热者慎服。",
+    "P81" : "内服：煎汤，3-10g；或入丸、散。",
+    "P82" : "1． 用于胸腹胀满等症。橘皮辛散通温，气味芳香，长于理气，能入脾肺，故既能行散肺气壅遏 ，又能行气宽中，用于肺气拥滞、胸膈痞满及脾胃气滞、脘腹胀满等症。常与木香、枳壳等配伍应用。  2． 用于湿阻中焦、脘腹痞胀、便溏泄泻，以及痰多咳嗽等症。橘皮苦温燥湿而能健脾行气，故常用于湿阻中焦、脘腹胀闷、便溏苔腻等症，可配伍苍术、厚朴同用。又善于燥湿化痰，为治湿痰壅肺、痰多咳嗽的常用要药，每与半夏、茯苓同用。  3． 用于脾虚饮食减少、消化不良，以及恶心呕吐等症。该品燥湿而能健脾开胃，适用于脾胃虚弱、饮食减少、消化不良、大便泄泻等症，常与人参、白术、茯苓等配合应用。因其既能健脾，又能理气，故往往用作补气药之佐使，可使补而不滞，有防止壅遏作胀作用。  此外，橘皮又能和中，可治胃失和降、恶心呕吐，若胃寒呕吐，可与生姜同用；胃热呕吐，又可配伍竹茹、黄连等药同用。",
+    "P87" : "http://www.openkg.cn/COVID-19/medical/resource/R313",
+    "label" : {
+      "@language" : "zh",
+      "@value" : "陈皮"
+    }
+  } ],
+  "@context" : {
+    "P75" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P75",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "unit" : {
+      "@id" : "http://www.platdata.ai/rdf-schema#unit"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "P18" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P18",
+      "@type" : "@id"
+    },
+    "P21" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P21",
+      "@type" : "@id"
+    },
+    "P20" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P20",
+      "@type" : "@id"
+    },
+    "P76" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P76",
+      "@type" : "@id"
+    },
+    "P77" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P77",
+      "@type" : "@id"
+    },
+    "P61" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P61",
+      "@type" : "@id"
+    },
+    "P17" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P17",
+      "@type" : "@id"
+    },
+    "P60" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P60",
+      "@type" : "@id"
+    },
+    "P58" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P58",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "P27" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P27",
+      "@type" : "@id"
+    },
+    "P26" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P26",
+      "@type" : "@id"
+    },
+    "P80" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P80"
+    },
+    "P72" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P72",
+      "@type" : "@id"
+    },
+    "P73" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P73",
+      "@type" : "@id"
+    },
+    "P88" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P88",
+      "@type" : "@id"
+    },
+    "P68" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P68",
+      "@type" : "@id"
+    },
+    "P69" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P69",
+      "@type" : "@id"
+    },
+    "P81" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P81"
+    },
+    "P82" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P82"
+    },
+    "P67" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P67",
+      "@type" : "@id"
+    },
+    "P14" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P14",
+      "@type" : "@id"
+    },
+    "P10" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P10",
+      "@type" : "@id"
+    },
+    "P11" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P11",
+      "@type" : "@id"
+    },
+    "P7" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P7"
+    },
+    "P9" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P9",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "P93" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P93",
+      "@type" : "@id"
+    },
+    "P12" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P12",
+      "@type" : "@id"
+    },
+    "P13" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P13",
+      "@type" : "@id"
+    },
+    "P92" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P92"
+    },
+    "P6" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P6"
+    },
+    "P5" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P5"
+    },
+    "P1" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "P2" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P2"
+    },
+    "P3" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P3"
+    },
+    "P8" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P8"
+    },
+    "P87" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P87",
+      "@type" : "@id"
+    },
+    "P39" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P39",
+      "@type" : "@id"
+    },
+    "P40" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P40",
+      "@type" : "@id"
+    },
+    "P53" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P53",
+      "@type" : "@id"
+    },
+    "P52" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P52",
+      "@type" : "@id"
+    },
+    "P90" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P90",
+      "@type" : "@id"
+    },
+    "P62" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P62",
+      "@type" : "@id"
+    },
+    "P86" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P86"
+    },
+    "P89" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P89",
+      "@type" : "@id"
+    },
+    "P66" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P66"
+    },
+    "P42" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P42",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs"
+    },
+    "P49" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P49",
+      "@type" : "@id"
+    },
+    "P83" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P83"
+    },
+    "P84" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P84"
+    },
+    "P41" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P41",
+      "@type" : "@id"
+    },
+    "P24" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P24",
+      "@type" : "@id"
+    },
+    "P29" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P29",
+      "@type" : "@id"
+    },
+    "P28" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P28",
+      "@type" : "@id"
+    },
+    "P31" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P31",
+      "@type" : "@id"
+    },
+    "P30" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P30",
+      "@type" : "@id"
+    },
+    "P50" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P50",
+      "@type" : "@id"
+    },
+    "P25" : {
+      "@id" : "http://www.openkg.cn/COVID-19/medical/property/P25",
+      "@type" : "@id"
+    }
+  }
+}

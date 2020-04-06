@@ -1,0 +1,4 @@
+{"msg":"ok","connectionnum":124,"StatusMsg":"success","creator":"root","triple num":291522,"subject num":51437,"entity
+num":54419,"literalnum":58677,"StatusCode":0,"built_time":"2020-03-23 15:05:30","predicatenum":49,"predicate
+num":49,"database":"covid.baike","subjectnum":51437,"success":1,"cost_time":1,"literal num":58677,"connection
+num":124,"triplenum":291522,"entitynum":54419}
