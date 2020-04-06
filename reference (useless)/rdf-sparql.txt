@@ -1,0 +1,57 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX medicalProperty: <http://www.openkg.cn/COVID-19/medical/property/>
+
+Medical
+
+SELECT *{
+?label rdfs:label '苍术'@zh.
+?label ?p ?o. 
+FILTER NOT EXISTS {?o rdfs:label ?o2}.
+}
+
+
+SELECT *{
+?label rdfs:label '洛匹那韦'@zh.
+?label ?p ?o.
+?o rdfs:label ?o2.
+}
+
+
+SELECT DISTINCT ?o{
+?label rdfs:label ?input.
+?label ?p ?o.
+FILTER (REGEX(str(?input), "病毒"))
+FILTER NOT EXISTS {?o rdfs:label ?o2}.
+}
+
+
+
+SELECT DISTINCT ?o ?o2{
+  {
+	?label rdfs:label '李文亮'@zh.
+	?label ?p ?o.
+	?o rdfs:label ?o2.
+  }
+  union
+  {
+   ?label rdfs:label '李文亮'@zh.
+	?label ?p ?o2.
+    ?p rdfs:label ?o.
+   FILTER NOT EXISTS {?o2 rdfs:label ?o3}.
+  }
+}
+
+
+
+SELECT DISTINCT ?o ?o2{
+	?label rdfs:label '李文亮'@zh.
+	?label ?p ?o2.
+   ?p rdfs:label ?o.
+   FILTER NOT EXISTS {?o2 rdfs:label ?o3}.
+  	FILTER (REGEX(str(?o), "死亡时间"))
+}
+
+
