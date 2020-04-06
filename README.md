@@ -11,9 +11,10 @@ COVID-2019 中文知识问答系统（SIMPLE DEMO）
 - refo
 - jiaba
 
-# 数据来源
+# 数据来源(转换后的RDF数据已上传至本仓库)
 - [OpenKG](http://openkg.cn/)
 - [COVID-QA(英文版)](https://github.com/deepset-ai/COVID-QA)
 
 # 参考
 - [poemKBQA](https://github.com/keyue123/poemKBQA)
+- [Acemap](https://www.acemap.info/)
