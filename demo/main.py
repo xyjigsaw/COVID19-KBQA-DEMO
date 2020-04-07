@@ -7,7 +7,7 @@ if __name__ == '__main__':
     q2s = questionSparql.QuestionSparql([u'./data/extendWords.txt'])
 
     while True:
-        question = input("你想说什么？（q 退出）:\n ")
+        question = input("-----------\n你想说什么？（q 退出）\n试一试：\n李文亮医生是谁？\n苍术有什么副作用？\n老年人预防措施？\nInput:")
         if question == 'q':
             break
         query = q2s.get_sparql(question)
