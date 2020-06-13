@@ -4,6 +4,8 @@ COVID-2019 中文知识问答系统（SIMPLE DEMO）
 
 将OpenKG数据转换为RDF导入Jena后采用SPARQL查询，QA采用refo模板。
 
+这是一个简单的Demo，功能并不完善，需要增加更多的模板。
+
 # 环境
 - Python 3.6+
 - Apache Jena Fuseki
